@@ -1,0 +1,2747 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a5e9eb0947a74f14b06905bb6a56e037 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_a5e9eb0947a74f14b06905bb6a56e037" ></div>
+        
+</body>
+<script>    
+    
+            var map_a5e9eb0947a74f14b06905bb6a56e037 = L.map(
+                "map_a5e9eb0947a74f14b06905bb6a56e037",
+                {
+                    center: [49.26139585475, -123.08910853675],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_46ad2894083847bf80e51ab84bba4760 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a5e9eb0947a74f14b06905bb6a56e037);
+        
+    
+            var marker_cluster_06503809585d40a7be3e8ddf1a2ddf11 = L.markerClusterGroup(
+                {}
+            );
+            map_a5e9eb0947a74f14b06905bb6a56e037.addLayer(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var marker_480e9b13d2e74c0bae0917832851a1d8 = L.marker(
+                [49.26939934, -123.16187563],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_7d1a1551a09e43acaa83e85107498717 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_480e9b13d2e74c0bae0917832851a1d8.setIcon(icon_7d1a1551a09e43acaa83e85107498717);
+        
+    
+        var popup_ca91d247aff7436bac24399ba6c44b14 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_8ffab8f1d01646a0a7049c017f7daa3f = $(`<div id="html_8ffab8f1d01646a0a7049c017f7daa3f" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>30 <br> <b>Address: </b>  2495 W 3rd Ave<br><b>Operator: </b>Brightside Community Homes Foundation<br><b>Year when this was initially occupied: </b>1974.0</div>`)[0];
+            popup_ca91d247aff7436bac24399ba6c44b14.setContent(html_8ffab8f1d01646a0a7049c017f7daa3f);
+        
+
+        marker_480e9b13d2e74c0bae0917832851a1d8.bindPopup(popup_ca91d247aff7436bac24399ba6c44b14)
+        ;
+
+        
+    
+    
+            var marker_808725b8f6704b2680393b1133c144ab = L.marker(
+                [49.26518737, -123.09804729],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_d5835f64b4ab426c8d72a26941fa4281 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_808725b8f6704b2680393b1133c144ab.setIcon(icon_d5835f64b4ab426c8d72a26941fa4281);
+        
+    
+        var popup_31b650684d574073ab4ae1ac4c48e9b3 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_39e2fe9472ab43ce996373a5db69d603 = $(`<div id="html_39e2fe9472ab43ce996373a5db69d603" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>46 <br> <b>Address: </b>  330 E 6th Ave<br><b>Operator: </b>New Chelsea Society<br><b>Year when this was initially occupied: </b>1975.0</div>`)[0];
+            popup_31b650684d574073ab4ae1ac4c48e9b3.setContent(html_39e2fe9472ab43ce996373a5db69d603);
+        
+
+        marker_808725b8f6704b2680393b1133c144ab.bindPopup(popup_31b650684d574073ab4ae1ac4c48e9b3)
+        ;
+
+        
+    
+    
+            var marker_b3b70e2380cb43ed9155f7f939715832 = L.marker(
+                [49.26362938, -123.08405019],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_25f9f2f3e80440279ea078e9bc4a202b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b3b70e2380cb43ed9155f7f939715832.setIcon(icon_25f9f2f3e80440279ea078e9bc4a202b);
+        
+    
+        var popup_7ec42a1fae874c7bba20cb88a0c807ff = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_b3bcadf1811144198d88b938fff12f7e = $(`<div id="html_b3bcadf1811144198d88b938fff12f7e" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>60 <br> <b>Address: </b>  951 E 8th Ave<br><b>Operator: </b>Anavets Senior Citizens Housing Society<br><b>Year when this was initially occupied: </b>1978.0</div>`)[0];
+            popup_7ec42a1fae874c7bba20cb88a0c807ff.setContent(html_b3bcadf1811144198d88b938fff12f7e);
+        
+
+        marker_b3b70e2380cb43ed9155f7f939715832.bindPopup(popup_7ec42a1fae874c7bba20cb88a0c807ff)
+        ;
+
+        
+    
+    
+            var marker_6fd28d3f285b4cae97374a1f0c2443a2 = L.marker(
+                [49.26029268, -123.07498181],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_7f42870dd36144ab8102a7788addc52c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6fd28d3f285b4cae97374a1f0c2443a2.setIcon(icon_7f42870dd36144ab8102a7788addc52c);
+        
+    
+        var popup_a3d795bfb61b482a90c065c244c3d37a = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_e5261141966d417b98b15d873cc01d42 = $(`<div id="html_e5261141966d417b98b15d873cc01d42" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>29 <br> <b>Address: </b>  1400 E 11th Ave<br><b>Operator: </b>Brightside Community Homes Foundation<br><b>Year when this was initially occupied: </b>1973.0</div>`)[0];
+            popup_a3d795bfb61b482a90c065c244c3d37a.setContent(html_e5261141966d417b98b15d873cc01d42);
+        
+
+        marker_6fd28d3f285b4cae97374a1f0c2443a2.bindPopup(popup_a3d795bfb61b482a90c065c244c3d37a)
+        ;
+
+        
+    
+    
+            var marker_e694cc2142e34471809171a0b5560bb0 = L.marker(
+                [49.25923061, -123.11636959],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_2f860330ca9e4e9194764235022615b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e694cc2142e34471809171a0b5560bb0.setIcon(icon_2f860330ca9e4e9194764235022615b8);
+        
+    
+        var popup_d90c961d71aa4725826ce384f5d3aff2 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_fae2752d2a8e40ff8203bb7e6e2a5b8e = $(`<div id="html_fae2752d2a8e40ff8203bb7e6e2a5b8e" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>21 <br> <b>Address: </b>  546 W 13th Ave<br><b>Operator: </b>Soroptimist Club of Vancouver<br><b>Year when this was initially occupied: </b>1960.0</div>`)[0];
+            popup_d90c961d71aa4725826ce384f5d3aff2.setContent(html_fae2752d2a8e40ff8203bb7e6e2a5b8e);
+        
+
+        marker_e694cc2142e34471809171a0b5560bb0.bindPopup(popup_d90c961d71aa4725826ce384f5d3aff2)
+        ;
+
+        
+    
+    
+            var marker_2ea02194c61848b8849610170cd942d4 = L.marker(
+                [49.23144219, -123.07016628],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_985fdfed51ea4ba3b21c3a48a02a7f7d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2ea02194c61848b8849610170cd942d4.setIcon(icon_985fdfed51ea4ba3b21c3a48a02a7f7d);
+        
+    
+        var popup_3119d8db47ef479b8f08dbcf66179939 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_373618f18c304aa289234a8c6283c32f = $(`<div id="html_373618f18c304aa289234a8c6283c32f" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>170 <br> <b>Address: </b>  1750 E 41st Ave<br><b>Operator: </b>Mennonite Senior Citizens' Society of B.C.<br><b>Year when this was initially occupied: </b>1974.0</div>`)[0];
+            popup_3119d8db47ef479b8f08dbcf66179939.setContent(html_373618f18c304aa289234a8c6283c32f);
+        
+
+        marker_2ea02194c61848b8849610170cd942d4.bindPopup(popup_3119d8db47ef479b8f08dbcf66179939)
+        ;
+
+        
+    
+    
+            var marker_23ace9227fb14f22aafb2e62fbf8ab54 = L.marker(
+                [49.22542244, -123.11362118],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_83dc537aaba94b0cbdb56cb170b8161d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_23ace9227fb14f22aafb2e62fbf8ab54.setIcon(icon_83dc537aaba94b0cbdb56cb170b8161d);
+        
+    
+        var popup_bd5911c35f754363aeab0c037424396b = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_9c9457dde1cf432082b2619c551dcd4f = $(`<div id="html_9c9457dde1cf432082b2619c551dcd4f" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>100 <br> <b>Address: </b>  6545 Alberta St<br><b>Operator: </b>South Vancouver Foundation<br><b>Year when this was initially occupied: </b>1978.0</div>`)[0];
+            popup_bd5911c35f754363aeab0c037424396b.setContent(html_9c9457dde1cf432082b2619c551dcd4f);
+        
+
+        marker_23ace9227fb14f22aafb2e62fbf8ab54.bindPopup(popup_bd5911c35f754363aeab0c037424396b)
+        ;
+
+        
+    
+    
+            var marker_b103a6e562ff4c74bfb14d812b29c6f2 = L.marker(
+                [49.28344261, -123.1027163],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_f33cededb3b041ce8ea0fb058a39073a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b103a6e562ff4c74bfb14d812b29c6f2.setIcon(icon_f33cededb3b041ce8ea0fb058a39073a);
+        
+    
+        var popup_1ae26987044a4195a696b946c5f2f033 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_4189bb68104046048667d61fc5666a5e = $(`<div id="html_4189bb68104046048667d61fc5666a5e" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>30 <br> <b>Address: </b>  58 Alexander St<br><b>Operator: </b>City of Vancouver<br><b>Year when this was initially occupied: </b>1974.0</div>`)[0];
+            popup_1ae26987044a4195a696b946c5f2f033.setContent(html_4189bb68104046048667d61fc5666a5e);
+        
+
+        marker_b103a6e562ff4c74bfb14d812b29c6f2.bindPopup(popup_1ae26987044a4195a696b946c5f2f033)
+        ;
+
+        
+    
+    
+            var marker_f7588c8c2a2b457395dce28de7b101b1 = L.marker(
+                [49.25789384, -123.11839952],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_3f22209d54264f93a756effb4801b89d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f7588c8c2a2b457395dce28de7b101b1.setIcon(icon_3f22209d54264f93a756effb4801b89d);
+        
+    
+        var popup_6f5070c524b8408ba8bdc1e543664de8 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_d6528ff2fb634467b0746a94b4bbaf35 = $(`<div id="html_d6528ff2fb634467b0746a94b4bbaf35" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>90 <br> <b>Address: </b>  3111 Ash St<br><b>Operator: </b>St. Mary's Ukrainian Senior Citizens' Society<br><b>Year when this was initially occupied: </b>1975.0</div>`)[0];
+            popup_6f5070c524b8408ba8bdc1e543664de8.setContent(html_d6528ff2fb634467b0746a94b4bbaf35);
+        
+
+        marker_f7588c8c2a2b457395dce28de7b101b1.bindPopup(popup_6f5070c524b8408ba8bdc1e543664de8)
+        ;
+
+        
+    
+    
+            var marker_3706c72063254d1faefa8ce54968cf77 = L.marker(
+                [49.28821106, -123.1353019],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_77bc33e003584d08ad0900f379da2f2c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3706c72063254d1faefa8ce54968cf77.setIcon(icon_77bc33e003584d08ad0900f379da2f2c);
+        
+    
+        var popup_859a72959810441a980a4f604143ac52 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_5e23ee4c8ffb4b37b558dc6aee1361cb = $(`<div id="html_5e23ee4c8ffb4b37b558dc6aee1361cb" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>41 <br> <b>Address: </b>  1630 Barclay St<br><b>Operator: </b>Brightside Community Homes Foundation<br><b>Year when this was initially occupied: </b>1970.0</div>`)[0];
+            popup_859a72959810441a980a4f604143ac52.setContent(html_5e23ee4c8ffb4b37b558dc6aee1361cb);
+        
+
+        marker_3706c72063254d1faefa8ce54968cf77.bindPopup(popup_859a72959810441a980a4f604143ac52)
+        ;
+
+        
+    
+    
+            var marker_30d94ad1545f4606a3daff4910005735 = L.marker(
+                [49.26769092, -123.11818965],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_b7e4c023f7b74c19bb37f58b36bc0b49 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_30d94ad1545f4606a3daff4910005735.setIcon(icon_b7e4c023f7b74c19bb37f58b36bc0b49);
+        
+    
+        var popup_0e2ab353317e4f8294d9baed5bd4cb24 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_0da30151c94b4165aa8bee3f5aea51d9 = $(`<div id="html_0da30151c94b4165aa8bee3f5aea51d9" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>46 <br> <b>Address: </b>  650 Bucketwheel<br><b>Operator: </b>Vancouver Broadway Housing Society<br><b>Year when this was initially occupied: </b>1977.0</div>`)[0];
+            popup_0e2ab353317e4f8294d9baed5bd4cb24.setContent(html_0da30151c94b4165aa8bee3f5aea51d9);
+        
+
+        marker_30d94ad1545f4606a3daff4910005735.bindPopup(popup_0e2ab353317e4f8294d9baed5bd4cb24)
+        ;
+
+        
+    
+    
+            var marker_cdbb17ce58074328a8eb112435921e20 = L.marker(
+                [49.27694361, -123.08442743],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_cdecc3d8f2824d33be162ab26a3df486 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cdbb17ce58074328a8eb112435921e20.setIcon(icon_cdecc3d8f2824d33be162ab26a3df486);
+        
+    
+        var popup_29c9f4e34bb3487694c7d7e4c7adc562 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_0a04dcbe92274f1da5c954c3fd333e56 = $(`<div id="html_0a04dcbe92274f1da5c954c3fd333e56" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>68 <br> <b>Address: </b>  830 Campbell Ave<br><b>Operator: </b>Vancouver Chinatown Housing Society<br><b>Year when this was initially occupied: </b>1978.0</div>`)[0];
+            popup_29c9f4e34bb3487694c7d7e4c7adc562.setContent(html_0a04dcbe92274f1da5c954c3fd333e56);
+        
+
+        marker_cdbb17ce58074328a8eb112435921e20.bindPopup(popup_29c9f4e34bb3487694c7d7e4c7adc562)
+        ;
+
+        
+    
+    
+            var marker_0ba5b9b55dbe48d1831a481346ba925f = L.marker(
+                [49.28240508, -123.09262537],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_70aee552fadb4dfab2028e0519909a89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0ba5b9b55dbe48d1831a481346ba925f.setIcon(icon_70aee552fadb4dfab2028e0519909a89);
+        
+    
+        var popup_c615d23bfb294877873d3801024ef195 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_0775e65359064deaa38ef844a7a9c480 = $(`<div id="html_0775e65359064deaa38ef844a7a9c480" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>78 <br> <b>Address: </b>  535 E Cordova St<br><b>Operator: </b>City of Vancouver<br><b>Year when this was initially occupied: </b>1976.0</div>`)[0];
+            popup_c615d23bfb294877873d3801024ef195.setContent(html_0775e65359064deaa38ef844a7a9c480);
+        
+
+        marker_0ba5b9b55dbe48d1831a481346ba925f.bindPopup(popup_c615d23bfb294877873d3801024ef195)
+        ;
+
+        
+    
+    
+            var marker_fdfd50a0d9f54cc597b0a748c3d7d98c = L.marker(
+                [49.22319619, -123.05403611],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_f73a2cca6c02418e9ee469d47da7ac08 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fdfd50a0d9f54cc597b0a748c3d7d98c.setIcon(icon_f73a2cca6c02418e9ee469d47da7ac08);
+        
+    
+        var popup_49807839495647f0844a02ed94cde87f = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_ac7fa85bcfa9499db27e32f1a0bc6ea9 = $(`<div id="html_ac7fa85bcfa9499db27e32f1a0bc6ea9" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>120 <br> <b>Address: </b>  6620 Elliott St<br><b>Operator: </b>BC Housing<br><b>Year when this was initially occupied: </b>1966.0</div>`)[0];
+            popup_49807839495647f0844a02ed94cde87f.setContent(html_ac7fa85bcfa9499db27e32f1a0bc6ea9);
+        
+
+        marker_fdfd50a0d9f54cc597b0a748c3d7d98c.bindPopup(popup_49807839495647f0844a02ed94cde87f)
+        ;
+
+        
+    
+    
+            var marker_565f9bb6f7774f80bdcc5478a6203f86 = L.marker(
+                [49.28560414, -123.12796978],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_1ca0d6e6dc894a548eec498d0fa7a4e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_565f9bb6f7774f80bdcc5478a6203f86.setIcon(icon_1ca0d6e6dc894a548eec498d0fa7a4e9);
+        
+    
+        var popup_c09ea74ba7ab4f168a69f033aa09a216 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_c4143a128b1a4eada18bbe7a52a10f55 = $(`<div id="html_c4143a128b1a4eada18bbe7a52a10f55" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>64 <br> <b>Address: </b>  845 Bute St<br><b>Operator: </b>Haro Park Center Society<br><b>Year when this was initially occupied: </b>1978.0</div>`)[0];
+            popup_c09ea74ba7ab4f168a69f033aa09a216.setContent(html_c4143a128b1a4eada18bbe7a52a10f55);
+        
+
+        marker_565f9bb6f7774f80bdcc5478a6203f86.bindPopup(popup_c09ea74ba7ab4f168a69f033aa09a216)
+        ;
+
+        
+    
+    
+            var marker_97b699e77b2247f9bf0cc53a69fef0a4 = L.marker(
+                [49.23748176, -123.03307907],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_d7cfe5969e1843f688ae225de4e78fa3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_97b699e77b2247f9bf0cc53a69fef0a4.setIcon(icon_d7cfe5969e1843f688ae225de4e78fa3);
+        
+    
+        var popup_5b947ba79cf24416962650e6acac3947 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_ddd992806a9b467babc7df727963371e = $(`<div id="html_ddd992806a9b467babc7df727963371e" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>81 <br> <b>Address: </b>  5233 Joyce St<br><b>Operator: </b>Columbus Charities<br><b>Year when this was initially occupied: </b>1970.0</div>`)[0];
+            popup_5b947ba79cf24416962650e6acac3947.setContent(html_ddd992806a9b467babc7df727963371e);
+        
+
+        marker_97b699e77b2247f9bf0cc53a69fef0a4.bindPopup(popup_5b947ba79cf24416962650e6acac3947)
+        ;
+
+        
+    
+    
+            var marker_fd48fab0dd0f42b6869e2a2e085fb42c = L.marker(
+                [49.247574, -123.16606118],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_0af75798651640fa930e38dd33d15ef3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fd48fab0dd0f42b6869e2a2e085fb42c.setIcon(icon_0af75798651640fa930e38dd33d15ef3);
+        
+    
+        var popup_a8bdb63d68da4f0ea87a37b9724ae7e1 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_61ad2f79ac6e46c5befc974246a5834a = $(`<div id="html_61ad2f79ac6e46c5befc974246a5834a" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>52 <br> <b>Address: </b>  2740 W King Edward Ave<br><b>Operator: </b>Calling Ministries<br><b>Year when this was initially occupied: </b>1964.0</div>`)[0];
+            popup_a8bdb63d68da4f0ea87a37b9724ae7e1.setContent(html_61ad2f79ac6e46c5befc974246a5834a);
+        
+
+        marker_fd48fab0dd0f42b6869e2a2e085fb42c.bindPopup(popup_a8bdb63d68da4f0ea87a37b9724ae7e1)
+        ;
+
+        
+    
+    
+            var marker_fbf81cfdb892412084c35c9e7ccf7b02 = L.marker(
+                [49.28545308, -123.06137361],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_d73786b86c6340a9a2cb6013f8067cbc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fbf81cfdb892412084c35c9e7ccf7b02.setIcon(icon_d73786b86c6340a9a2cb6013f8067cbc);
+        
+    
+        var popup_91192bd71ab34323886846d7bffd8d81 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_b4819c3a8edd4dcbb2024e5c78d90e8e = $(`<div id="html_b4819c3a8edd4dcbb2024e5c78d90e8e" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>42 <br> <b>Address: </b>  2122 Oxford St<br><b>Operator: </b>Vancouver East Lion's Housing Foundation<br><b>Year when this was initially occupied: </b>1965.0</div>`)[0];
+            popup_91192bd71ab34323886846d7bffd8d81.setContent(html_b4819c3a8edd4dcbb2024e5c78d90e8e);
+        
+
+        marker_fbf81cfdb892412084c35c9e7ccf7b02.bindPopup(popup_91192bd71ab34323886846d7bffd8d81)
+        ;
+
+        
+    
+    
+            var marker_348e994ff4454824b8eb771eb778fd98 = L.marker(
+                [49.28003018, -123.09649954],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_f246d2d55c11462683d9d06db14d3b51 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_348e994ff4454824b8eb771eb778fd98.setIcon(icon_f246d2d55c11462683d9d06db14d3b51);
+        
+    
+        var popup_01045fa4bb724786a7566ce307a3c79f = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_80f3713a036a470fb5c1fa7e941dd42f = $(`<div id="html_80f3713a036a470fb5c1fa7e941dd42f" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>50 <br> <b>Address: </b>  300 E Pender St<br><b>Operator: </b>Christ Church of China<br><b>Year when this was initially occupied: </b>1971.0</div>`)[0];
+            popup_01045fa4bb724786a7566ce307a3c79f.setContent(html_80f3713a036a470fb5c1fa7e941dd42f);
+        
+
+        marker_348e994ff4454824b8eb771eb778fd98.bindPopup(popup_01045fa4bb724786a7566ce307a3c79f)
+        ;
+
+        
+    
+    
+            var marker_f7f6baafaa18404d8ef146068d93b8ed = L.marker(
+                [49.28286102, -123.09604982],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_3602b84f9153489895c49a5dd567f1ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f7f6baafaa18404d8ef146068d93b8ed.setIcon(icon_3602b84f9153489895c49a5dd567f1ce);
+        
+    
+        var popup_33ee3b4894a04645bb31cd7320643f4b = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_7be7a7dcd5be414ca92208123307eacc = $(`<div id="html_7be7a7dcd5be414ca92208123307eacc" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>38 <br> <b>Address: </b>  376 Powell St<br><b>Operator: </b>Lookout Emergency Aid Society<br><b>Year when this was initially occupied: </b>1978.0</div>`)[0];
+            popup_33ee3b4894a04645bb31cd7320643f4b.setContent(html_7be7a7dcd5be414ca92208123307eacc);
+        
+
+        marker_f7f6baafaa18404d8ef146068d93b8ed.bindPopup(popup_33ee3b4894a04645bb31cd7320643f4b)
+        ;
+
+        
+    
+    
+            var marker_b8d9606cab234b2982ea06cb516c26f8 = L.marker(
+                [49.26829628, -123.07464212],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_4332e7815c934a5eaef377ddfcd436b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b8d9606cab234b2982ea06cb516c26f8.setIcon(icon_4332e7815c934a5eaef377ddfcd436b8);
+        
+    
+        var popup_8deb6e69e5d240d4b94b35385f6781cd = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_1cecd4bc288d46f99fb4af9221f17649 = $(`<div id="html_1cecd4bc288d46f99fb4af9221f17649" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>55 <br> <b>Address: </b>  1420 E 2nd Ave<br><b>Operator: </b>Baptist Housing Society of B.C.<br><b>Year when this was initially occupied: </b>1974.0</div>`)[0];
+            popup_8deb6e69e5d240d4b94b35385f6781cd.setContent(html_1cecd4bc288d46f99fb4af9221f17649);
+        
+
+        marker_b8d9606cab234b2982ea06cb516c26f8.bindPopup(popup_8deb6e69e5d240d4b94b35385f6781cd)
+        ;
+
+        
+    
+    
+            var marker_98331ae2a12d49deb0d8c83c8032bf8c = L.marker(
+                [49.27612487, -123.04319231],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_5b8b29fcd1994748a6c2ad333a5985e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_98331ae2a12d49deb0d8c83c8032bf8c.setIcon(icon_5b8b29fcd1994748a6c2ad333a5985e7);
+        
+    
+        var popup_ad28c87b2cff4cf5a602179338ad389f = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_c33947c1a34f49f0b1370369dae58067 = $(`<div id="html_c33947c1a34f49f0b1370369dae58067" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>63 <br> <b>Address: </b>  2912 Venables St<br><b>Operator: </b>Brightside Community Homes Foundation<br><b>Year when this was initially occupied: </b>1977.0</div>`)[0];
+            popup_ad28c87b2cff4cf5a602179338ad389f.setContent(html_c33947c1a34f49f0b1370369dae58067);
+        
+
+        marker_98331ae2a12d49deb0d8c83c8032bf8c.bindPopup(popup_ad28c87b2cff4cf5a602179338ad389f)
+        ;
+
+        
+    
+    
+            var marker_ebf302730232439680c874805b0a4240 = L.marker(
+                [49.28617719, -123.06138018],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_5d89c33c583a4940a2e592a7fd6e353e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ebf302730232439680c874805b0a4240.setIcon(icon_5d89c33c583a4940a2e592a7fd6e353e);
+        
+    
+        var popup_df3ccd20670d4b68afd13036bd8947a3 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_99b8c726d4d74d5cba3f08cd3297007f = $(`<div id="html_99b8c726d4d74d5cba3f08cd3297007f" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>41 <br> <b>Address: </b>  2080 Wall St<br><b>Operator: </b>BC Housing<br><b>Year when this was initially occupied: </b>1969.0</div>`)[0];
+            popup_df3ccd20670d4b68afd13036bd8947a3.setContent(html_99b8c726d4d74d5cba3f08cd3297007f);
+        
+
+        marker_ebf302730232439680c874805b0a4240.bindPopup(popup_df3ccd20670d4b68afd13036bd8947a3)
+        ;
+
+        
+    
+    
+            var marker_607e3fc0164a43f092bb976c53a408c6 = L.marker(
+                [49.21174063, -123.11404507],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_5c3ed1f315c5479fbe6639c0160bcc4b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_607e3fc0164a43f092bb976c53a408c6.setIcon(icon_5c3ed1f315c5479fbe6639c0160bcc4b);
+        
+    
+        var popup_c1b6c64b786d433fa818be737ff75f12 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_a50ff50523554421a510cc1e21397cf2 = $(`<div id="html_a50ff50523554421a510cc1e21397cf2" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>89 <br> <b>Address: </b>  8080 Yukon St<br><b>Operator: </b>Vancouver Kiwanis Housing Society<br><b>Year when this was initially occupied: </b>1976.0</div>`)[0];
+            popup_c1b6c64b786d433fa818be737ff75f12.setContent(html_a50ff50523554421a510cc1e21397cf2);
+        
+
+        marker_607e3fc0164a43f092bb976c53a408c6.bindPopup(popup_c1b6c64b786d433fa818be737ff75f12)
+        ;
+
+        
+    
+    
+            var marker_2feadcb3883c46418e29dcd667b587dc = L.marker(
+                [49.2253565, -123.05069803],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_f041353650fe4521945ba841da9abb56 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2feadcb3883c46418e29dcd667b587dc.setIcon(icon_f041353650fe4521945ba841da9abb56);
+        
+    
+        var popup_6006e4afb938440ea4a11ca1dc6357cc = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_4cca56b185ae4b8597b558319fa5f1d6 = $(`<div id="html_4cca56b185ae4b8597b558319fa5f1d6" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>50 <br> <b>Address: </b>  6465 Vivian St<br><b>Operator: </b>The Fair Haven United Church Homes<br><b>Year when this was initially occupied: </b>1968.0</div>`)[0];
+            popup_6006e4afb938440ea4a11ca1dc6357cc.setContent(html_4cca56b185ae4b8597b558319fa5f1d6);
+        
+
+        marker_2feadcb3883c46418e29dcd667b587dc.bindPopup(popup_6006e4afb938440ea4a11ca1dc6357cc)
+        ;
+
+        
+    
+    
+            var marker_fd3bbb8a021c449bbc9739083b210250 = L.marker(
+                [49.26956174, -123.1475091],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_b5ca3d35559d4711b0fef0521d4c6d54 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fd3bbb8a021c449bbc9739083b210250.setIcon(icon_b5ca3d35559d4711b0fef0521d4c6d54);
+        
+    
+        var popup_02e547fd48ec4da4becf7b47e22c9213 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_e1711fc7d3a7401d9a1c0aeb09d6a52c = $(`<div id="html_e1711fc7d3a7401d9a1c0aeb09d6a52c" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>31 <br> <b>Address: </b>  1880 W 2nd Ave<br><b>Operator: </b>BC Housing<br><b>Year when this was initially occupied: </b>1975.0</div>`)[0];
+            popup_02e547fd48ec4da4becf7b47e22c9213.setContent(html_e1711fc7d3a7401d9a1c0aeb09d6a52c);
+        
+
+        marker_fd3bbb8a021c449bbc9739083b210250.bindPopup(popup_02e547fd48ec4da4becf7b47e22c9213)
+        ;
+
+        
+    
+    
+            var marker_60eb61c20d4147f5a9862b2b7660e60f = L.marker(
+                [49.26829628, -123.07464212],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_aaf67d0c22dd4cd8a2dcc0c96d58671b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_60eb61c20d4147f5a9862b2b7660e60f.setIcon(icon_aaf67d0c22dd4cd8a2dcc0c96d58671b);
+        
+    
+        var popup_4d242ff26dc245b584fecb9bab428b84 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_55371be661174c7fb8a3141ba50b095e = $(`<div id="html_55371be661174c7fb8a3141ba50b095e" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>145 <br> <b>Address: </b>  1455 E 3rd Ave<br><b>Operator: </b>Baptist Housing Society of B.C.<br><b>Year when this was initially occupied: </b>1973.0</div>`)[0];
+            popup_4d242ff26dc245b584fecb9bab428b84.setContent(html_55371be661174c7fb8a3141ba50b095e);
+        
+
+        marker_60eb61c20d4147f5a9862b2b7660e60f.bindPopup(popup_4d242ff26dc245b584fecb9bab428b84)
+        ;
+
+        
+    
+    
+            var marker_ec6f7f3e45a0418ba10e5a987c051988 = L.marker(
+                [49.26569521, -123.09777754],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_c1b6569fbaa6448ab27d53fbed3799a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ec6f7f3e45a0418ba10e5a987c051988.setIcon(icon_c1b6569fbaa6448ab27d53fbed3799a9);
+        
+    
+        var popup_5078622f0ead4145959225e137eaaa4c = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_d00c99f890974fe0a52aa385bd3a2469 = $(`<div id="html_d00c99f890974fe0a52aa385bd3a2469" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>36 <br> <b>Address: </b>  325 E 6th Ave<br><b>Operator: </b>Mount Pleasant Housing Society<br><b>Year when this was initially occupied: </b>1969.0</div>`)[0];
+            popup_5078622f0ead4145959225e137eaaa4c.setContent(html_d00c99f890974fe0a52aa385bd3a2469);
+        
+
+        marker_ec6f7f3e45a0418ba10e5a987c051988.bindPopup(popup_5078622f0ead4145959225e137eaaa4c)
+        ;
+
+        
+    
+    
+            var marker_ca3e65a6146642728373d1cfc345df93 = L.marker(
+                [49.25988863, -123.07523628],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_65f41eb1579c4537ab9b10325bab1505 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ca3e65a6146642728373d1cfc345df93.setIcon(icon_65f41eb1579c4537ab9b10325bab1505);
+        
+    
+        var popup_7ef2b878968349278388ba7a2f47dd8b = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_47728ed0daca4d819c6f6e0a9e6bef89 = $(`<div id="html_47728ed0daca4d819c6f6e0a9e6bef89" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>20 <br> <b>Address: </b>  1425 E 12th Ave<br><b>Operator: </b>Brightside Community Homes Foundation<br><b>Year when this was initially occupied: </b>1971.0</div>`)[0];
+            popup_7ef2b878968349278388ba7a2f47dd8b.setContent(html_47728ed0daca4d819c6f6e0a9e6bef89);
+        
+
+        marker_ca3e65a6146642728373d1cfc345df93.bindPopup(popup_7ef2b878968349278388ba7a2f47dd8b)
+        ;
+
+        
+    
+    
+            var marker_6c16569fdadc487dac351a2b6495584b = L.marker(
+                [49.25988091, -123.07467003],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_324b1ff28a0d42848de1ef0c9985cb16 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6c16569fdadc487dac351a2b6495584b.setIcon(icon_324b1ff28a0d42848de1ef0c9985cb16);
+        
+    
+        var popup_0c724654093149f08529486c3a975a1e = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_2d4a456412814d8899d2cb73022a6643 = $(`<div id="html_2d4a456412814d8899d2cb73022a6643" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>37 <br> <b>Address: </b>  1451 E 12th Ave<br><b>Operator: </b>Brightside Community Homes Foundation<br><b>Year when this was initially occupied: </b>1962.0</div>`)[0];
+            popup_0c724654093149f08529486c3a975a1e.setContent(html_2d4a456412814d8899d2cb73022a6643);
+        
+
+        marker_6c16569fdadc487dac351a2b6495584b.bindPopup(popup_0c724654093149f08529486c3a975a1e)
+        ;
+
+        
+    
+    
+            var marker_eb52df25ab8f45f29bd55b950d456f4b = L.marker(
+                [49.2584527, -123.07476475],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_021bc99436014653aaa8fc612abb126f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_eb52df25ab8f45f29bd55b950d456f4b.setIcon(icon_021bc99436014653aaa8fc612abb126f);
+        
+    
+        var popup_6bec06bb43db4277888c42123ed6ec71 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_6d80fdb9449043f5a78c1d53cd8134c1 = $(`<div id="html_6d80fdb9449043f5a78c1d53cd8134c1" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>24 <br> <b>Address: </b>  1444 E 13th Ave<br><b>Operator: </b>Brightside Community Homes Foundation<br><b>Year when this was initially occupied: </b>1972.0</div>`)[0];
+            popup_6bec06bb43db4277888c42123ed6ec71.setContent(html_6d80fdb9449043f5a78c1d53cd8134c1);
+        
+
+        marker_eb52df25ab8f45f29bd55b950d456f4b.bindPopup(popup_6bec06bb43db4277888c42123ed6ec71)
+        ;
+
+        
+    
+    
+            var marker_96c01adcf18f46d980d1dd02a18df035 = L.marker(
+                [49.27782127, -123.07006467],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_d1a123b8bc0148eebfa49fae19374b70 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_96c01adcf18f46d980d1dd02a18df035.setIcon(icon_d1a123b8bc0148eebfa49fae19374b70);
+        
+    
+        var popup_8dc8a11e76b748a883630234c6d44771 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_6e75ef3709774856b5c9f1e061cf6b81 = $(`<div id="html_6e75ef3709774856b5c9f1e061cf6b81" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>118 <br> <b>Address: </b>  1717 Adanac St<br><b>Operator: </b>Vancouver East Lion's Housing Foundation<br><b>Year when this was initially occupied: </b>1979.0</div>`)[0];
+            popup_8dc8a11e76b748a883630234c6d44771.setContent(html_6e75ef3709774856b5c9f1e061cf6b81);
+        
+
+        marker_96c01adcf18f46d980d1dd02a18df035.bindPopup(popup_8dc8a11e76b748a883630234c6d44771)
+        ;
+
+        
+    
+    
+            var marker_c986d2da20c54cf29319df9695eece99 = L.marker(
+                [49.28866855, -123.13484649],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_bf826e45d26c4e54ad7b39ce9e2a21e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c986d2da20c54cf29319df9695eece99.setIcon(icon_bf826e45d26c4e54ad7b39ce9e2a21e0);
+        
+    
+        var popup_04f604d241ea4f46a42474726a677bf4 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_b8c029b606114abebea9678fa15e674b = $(`<div id="html_b8c029b606114abebea9678fa15e674b" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>265 <br> <b>Address: </b>  1655 Barclay<br><b>Operator: </b>BC Housing<br><b>Year when this was initially occupied: </b>1975.0</div>`)[0];
+            popup_04f604d241ea4f46a42474726a677bf4.setContent(html_b8c029b606114abebea9678fa15e674b);
+        
+
+        marker_c986d2da20c54cf29319df9695eece99.bindPopup(popup_04f604d241ea4f46a42474726a677bf4)
+        ;
+
+        
+    
+    
+            var marker_14aa4409d7ce43b8a06f276122e86a9d = L.marker(
+                [49.26800345, -123.11823439],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_ea2d9cdcff124114b0cd7a75a2ba5067 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_14aa4409d7ce43b8a06f276122e86a9d.setIcon(icon_ea2d9cdcff124114b0cd7a75a2ba5067);
+        
+    
+        var popup_b116b202f2f34e439b56f16cd506db52 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_4b501f2b8fd04fc189b816a146569dfe = $(`<div id="html_4b501f2b8fd04fc189b816a146569dfe" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>61 <br> <b>Address: </b>  633 Bucketwheel<br><b>Operator: </b>Uptown Kiwanis Club<br><b>Year when this was initially occupied: </b>1977.0</div>`)[0];
+            popup_b116b202f2f34e439b56f16cd506db52.setContent(html_4b501f2b8fd04fc189b816a146569dfe);
+        
+
+        marker_14aa4409d7ce43b8a06f276122e86a9d.bindPopup(popup_b116b202f2f34e439b56f16cd506db52)
+        ;
+
+        
+    
+    
+            var marker_662cced1521147498120efb4df3e5c7d = L.marker(
+                [49.27877594, -123.13146057],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_60b5724cbdb14fdd845d558387812dec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_662cced1521147498120efb4df3e5c7d.setIcon(icon_60b5724cbdb14fdd845d558387812dec);
+        
+    
+        var popup_4d5d51e8eb014f7eb333625af2da7fa5 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_df7ffae723e44945b27db7812cf13af5 = $(`<div id="html_df7ffae723e44945b27db7812cf13af5" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>216 <br> <b>Address: </b>  1030 Burnaby St<br><b>Operator: </b>Society for Christian Care of the Elderly<br><b>Year when this was initially occupied: </b>1972.0</div>`)[0];
+            popup_4d5d51e8eb014f7eb333625af2da7fa5.setContent(html_df7ffae723e44945b27db7812cf13af5);
+        
+
+        marker_662cced1521147498120efb4df3e5c7d.bindPopup(popup_4d5d51e8eb014f7eb333625af2da7fa5)
+        ;
+
+        
+    
+    
+            var marker_dd8925c10c30434eb2b3beab5b42350e = L.marker(
+                [49.27900972, -123.08401895],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_304f5942fde3409ab435564cce943b19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dd8925c10c30434eb2b3beab5b42350e.setIcon(icon_304f5942fde3409ab435564cce943b19);
+        
+    
+        var popup_6f7b719aaa27440c8b5f99cc7da8e6e8 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_a387dae629ba4b0d87fb9ff138540134 = $(`<div id="html_a387dae629ba4b0d87fb9ff138540134" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>134 <br> <b>Address: </b>  512 Campbell Ave<br><b>Operator: </b>BC Housing<br><b>Year when this was initially occupied: </b>1967.0</div>`)[0];
+            popup_6f7b719aaa27440c8b5f99cc7da8e6e8.setContent(html_a387dae629ba4b0d87fb9ff138540134);
+        
+
+        marker_dd8925c10c30434eb2b3beab5b42350e.bindPopup(popup_6f7b719aaa27440c8b5f99cc7da8e6e8)
+        ;
+
+        
+    
+    
+            var marker_76ec87e2cdfb4044ae61df6699ee5385 = L.marker(
+                [49.27867931, -123.09201049],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_ca0013b5ca644e27897a21c898683adc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_76ec87e2cdfb4044ae61df6699ee5385.setIcon(icon_ca0013b5ca644e27897a21c898683adc);
+        
+    
+        var popup_549b5ee0058b4e7189d9127b136c8012 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_553c90ce2ab344f992356e2b1ae39bc1 = $(`<div id="html_553c90ce2ab344f992356e2b1ae39bc1" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>26 <br> <b>Address: </b>  551 E Georgia St<br><b>Operator: </b>Vancouver Chinese Kung Kao Foundation<br><b>Year when this was initially occupied: </b>1979.0</div>`)[0];
+            popup_549b5ee0058b4e7189d9127b136c8012.setContent(html_553c90ce2ab344f992356e2b1ae39bc1);
+        
+
+        marker_76ec87e2cdfb4044ae61df6699ee5385.bindPopup(popup_549b5ee0058b4e7189d9127b136c8012)
+        ;
+
+        
+    
+    
+            var marker_48b8d830da3843a7915ff0122ce0308b = L.marker(
+                [49.27849178, -123.09526693],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_c5ca68e579a240999f1cbde032b6a516 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_48b8d830da3843a7915ff0122ce0308b.setIcon(icon_c5ca68e579a240999f1cbde032b6a516);
+        
+    
+        var popup_cf51986757944e94a4ddf81c49c06ed7 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_f2088bdc7c5740718d3d3d1a835eabfa = $(`<div id="html_f2088bdc7c5740718d3d3d1a835eabfa" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>161 <br> <b>Address: </b>  350 Keefer St<br><b>Operator: </b>BC Housing<br><b>Year when this was initially occupied: </b>1970.0</div>`)[0];
+            popup_cf51986757944e94a4ddf81c49c06ed7.setContent(html_f2088bdc7c5740718d3d3d1a835eabfa);
+        
+
+        marker_48b8d830da3843a7915ff0122ce0308b.bindPopup(popup_cf51986757944e94a4ddf81c49c06ed7)
+        ;
+
+        
+    
+    
+            var marker_39e3674843364e169c739b7726442179 = L.marker(
+                [49.21945024, -123.04186443],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_bcec77ec05ac4b29b9eec3d5bc7c0784 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_39e3674843364e169c739b7726442179.setIcon(icon_bcec77ec05ac4b29b9eec3d5bc7c0784);
+        
+    
+        var popup_7472cbc4c31844609670415d485ac013 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_30b3c81e26ef4adc9ba9f76e654c4347 = $(`<div id="html_30b3c81e26ef4adc9ba9f76e654c4347" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>36 <br> <b>Address: </b>  7007 Kerr St<br><b>Operator: </b>Ukrainian Senior Citizens Association<br><b>Year when this was initially occupied: </b>1970.0</div>`)[0];
+            popup_7472cbc4c31844609670415d485ac013.setContent(html_30b3c81e26ef4adc9ba9f76e654c4347);
+        
+
+        marker_39e3674843364e169c739b7726442179.bindPopup(popup_7472cbc4c31844609670415d485ac013)
+        ;
+
+        
+    
+    
+            var marker_1fa9ba3232ef48d7bf4c483b7fe25cd8 = L.marker(
+                [49.22835508, -123.07858498],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_e6c7d78dfe174cedbdae6d30b01e8621 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1fa9ba3232ef48d7bf4c483b7fe25cd8.setIcon(icon_e6c7d78dfe174cedbdae6d30b01e8621);
+        
+    
+        var popup_30f2358d32b94bb1809285957441502a = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_2206bad1e8cd4225ba42b5974c4de2d0 = $(`<div id="html_2206bad1e8cd4225ba42b5974c4de2d0" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>44 <br> <b>Address: </b>  6100 Inverness St<br><b>Operator: </b>BC Housing<br><b>Year when this was initially occupied: </b>1969.0</div>`)[0];
+            popup_30f2358d32b94bb1809285957441502a.setContent(html_2206bad1e8cd4225ba42b5974c4de2d0);
+        
+
+        marker_1fa9ba3232ef48d7bf4c483b7fe25cd8.bindPopup(popup_30f2358d32b94bb1809285957441502a)
+        ;
+
+        
+    
+    
+            var marker_eb332bfde47b4c31ab53c2e1696aaa65 = L.marker(
+                [49.26804963, -123.13509226],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_41cc2e6ac6ae45b6ae22824f7eed3b08 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_eb332bfde47b4c31ab53c2e1696aaa65.setIcon(icon_41cc2e6ac6ae45b6ae22824f7eed3b08);
+        
+    
+        var popup_eae609a81b504de2bc432f9ac9b01dbe = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_2193c362b9a449a7b8f625652609512a = $(`<div id="html_2193c362b9a449a7b8f625652609512a" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>44 <br> <b>Address: </b>  1399 Fountain Way<br><b>Operator: </b>Wellington Society<br><b>Year when this was initially occupied: </b>1980.0</div>`)[0];
+            popup_eae609a81b504de2bc432f9ac9b01dbe.setContent(html_2193c362b9a449a7b8f625652609512a);
+        
+
+        marker_eb332bfde47b4c31ab53c2e1696aaa65.bindPopup(popup_eae609a81b504de2bc432f9ac9b01dbe)
+        ;
+
+        
+    
+    
+            var marker_85f92325a45b415c9b5aa5efecb955dd = L.marker(
+                [49.20576794, -123.14167031],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_07315e6eacc34499855c98fc3ef9b215 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_85f92325a45b415c9b5aa5efecb955dd.setIcon(icon_07315e6eacc34499855c98fc3ef9b215);
+        
+    
+        var popup_2b1ba8b75b714b6b9440f1b9a707083a = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_ef486a05457d4f6bab27efc08e66daef = $(`<div id="html_ef486a05457d4f6bab27efc08e66daef" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>50 <br> <b>Address: </b>  8790 SW Marine Dr<br><b>Operator: </b>Vancouver Kiwanis Senior Citizens Housing Society<br><b>Year when this was initially occupied: </b>1970.0</div>`)[0];
+            popup_2b1ba8b75b714b6b9440f1b9a707083a.setContent(html_ef486a05457d4f6bab27efc08e66daef);
+        
+
+        marker_85f92325a45b415c9b5aa5efecb955dd.bindPopup(popup_2b1ba8b75b714b6b9440f1b9a707083a)
+        ;
+
+        
+    
+    
+            var marker_85db8efc88874349b98dcaee0bd51963 = L.marker(
+                [49.25707726, -123.05714229],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_8d2d0ad84f904c3c90e5655550698f8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_85db8efc88874349b98dcaee0bd51963.setIcon(icon_8d2d0ad84f904c3c90e5655550698f8e);
+        
+    
+        var popup_15265fc88ffc4fa0a05c61c0f70d0a1b = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_ca1e4ace5dfa456cb701381459f93177 = $(`<div id="html_ca1e4ace5dfa456cb701381459f93177" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>49 <br> <b>Address: </b>  3075 Nanaimo St<br><b>Operator: </b>New Chelsea Society<br><b>Year when this was initially occupied: </b>1962.0</div>`)[0];
+            popup_15265fc88ffc4fa0a05c61c0f70d0a1b.setContent(html_ca1e4ace5dfa456cb701381459f93177);
+        
+
+        marker_85db8efc88874349b98dcaee0bd51963.bindPopup(popup_15265fc88ffc4fa0a05c61c0f70d0a1b)
+        ;
+
+        
+    
+    
+            var marker_b13a715b355b4060904565000514569b = L.marker(
+                [49.25359041, -123.0448255],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_5d892032ecc7455da5d39af9e6a8dd27 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b13a715b355b4060904565000514569b.setIcon(icon_5d892032ecc7455da5d39af9e6a8dd27);
+        
+    
+        var popup_fdf9b7edf9934e9ebcea6cd3b0dd362f = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_99c78921dc314b8bae0c83bda5b736bd = $(`<div id="html_99c78921dc314b8bae0c83bda5b736bd" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>40 <br> <b>Address: </b>  3433 Renfrew St<br><b>Operator: </b>East Enders Amherst Lions Society<br><b>Year when this was initially occupied: </b>1976.0</div>`)[0];
+            popup_fdf9b7edf9934e9ebcea6cd3b0dd362f.setContent(html_99c78921dc314b8bae0c83bda5b736bd);
+        
+
+        marker_b13a715b355b4060904565000514569b.bindPopup(popup_fdf9b7edf9934e9ebcea6cd3b0dd362f)
+        ;
+
+        
+    
+    
+            var marker_b0573d2358bf4c0bbe9766afcf37e7bf = L.marker(
+                [49.26621497, -123.03326161],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_0b490fa486a84e178576d2030699e0ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b0573d2358bf4c0bbe9766afcf37e7bf.setIcon(icon_0b490fa486a84e178576d2030699e0ba);
+        
+    
+        var popup_ee1fc1ef44f04da2bf36bf8a9f38078d = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_ca5c9cf5192f43279e06c320017a1427 = $(`<div id="html_ca5c9cf5192f43279e06c320017a1427" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>48 <br> <b>Address: </b>  2050 Rupert St<br><b>Operator: </b>Beulah Garden Homes Society<br><b>Year when this was initially occupied: </b>1965.0</div>`)[0];
+            popup_ee1fc1ef44f04da2bf36bf8a9f38078d.setContent(html_ca5c9cf5192f43279e06c320017a1427);
+        
+
+        marker_b0573d2358bf4c0bbe9766afcf37e7bf.bindPopup(popup_ee1fc1ef44f04da2bf36bf8a9f38078d)
+        ;
+
+        
+    
+    
+            var marker_b7530c802a57431199a0e7bb8139e6e9 = L.marker(
+                [49.23266161, -123.03625358],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_36f8fb24762449488f14ebc6ae589d77 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b7530c802a57431199a0e7bb8139e6e9.setIcon(icon_36f8fb24762449488f14ebc6ae589d77);
+        
+    
+        var popup_2891e9d666cd4b308f38cda7e2c9acac = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_585a2c281ef54e44ba7d3657c236c7e7 = $(`<div id="html_585a2c281ef54e44ba7d3657c236c7e7" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>78 <br> <b>Address: </b>  5657 Harold St<br><b>Operator: </b>Brightside Community Homes Foundation<br><b>Year when this was initially occupied: </b>1978.0</div>`)[0];
+            popup_2891e9d666cd4b308f38cda7e2c9acac.setContent(html_585a2c281ef54e44ba7d3657c236c7e7);
+        
+
+        marker_b7530c802a57431199a0e7bb8139e6e9.bindPopup(popup_2891e9d666cd4b308f38cda7e2c9acac)
+        ;
+
+        
+    
+    
+            var marker_24d911bbc40d486cb2416aab00820d9d = L.marker(
+                [49.28866855, -123.13484649],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_2b771fc145014dc995c6466e8e223ae0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_24d911bbc40d486cb2416aab00820d9d.setIcon(icon_2b771fc145014dc995c6466e8e223ae0);
+        
+    
+        var popup_adcd18a0a55a45759c3fa721add485b9 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_1309113f460d481bb0f5d59b836706f5 = $(`<div id="html_1309113f460d481bb0f5d59b836706f5" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>226 <br> <b>Address: </b>  1650 Haro St<br><b>Operator: </b>BC Housing<br><b>Year when this was initially occupied: </b>1975.0</div>`)[0];
+            popup_adcd18a0a55a45759c3fa721add485b9.setContent(html_1309113f460d481bb0f5d59b836706f5);
+        
+
+        marker_24d911bbc40d486cb2416aab00820d9d.bindPopup(popup_adcd18a0a55a45759c3fa721add485b9)
+        ;
+
+        
+    
+    
+            var marker_102cac35c4c443b8a6cb82ffee017a24 = L.marker(
+                [49.26946318, -123.19139629],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_85fed931c9cf4721bba7de06ec93adf9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_102cac35c4c443b8a6cb82ffee017a24.setIcon(icon_85fed931c9cf4721bba7de06ec93adf9);
+        
+    
+        var popup_58fda3698875413d81397121805cd25f = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_5fc757e6398e43d7bfd02dd8e49a74eb = $(`<div id="html_5fc757e6398e43d7bfd02dd8e49a74eb" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>200 <br> <b>Address: </b>  1985 Wallace St<br><b>Operator: </b>BC Housing<br><b>Year when this was initially occupied: </b>1975.0</div>`)[0];
+            popup_58fda3698875413d81397121805cd25f.setContent(html_5fc757e6398e43d7bfd02dd8e49a74eb);
+        
+
+        marker_102cac35c4c443b8a6cb82ffee017a24.bindPopup(popup_58fda3698875413d81397121805cd25f)
+        ;
+
+        
+    
+    
+            var marker_7c4892e8dba04916a23dfef3619f5c02 = L.marker(
+                [49.26471876, -123.0713509],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_8dc035cb2eb943eaa7f9ff7f57893126 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7c4892e8dba04916a23dfef3619f5c02.setIcon(icon_8dc035cb2eb943eaa7f9ff7f57893126);
+        
+    
+        var popup_f0c344e92997483b8789499c05d7ceea = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_303fa7e350234b78843f626ff1b9e8b7 = $(`<div id="html_303fa7e350234b78843f626ff1b9e8b7" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>40 <br> <b>Address: </b>  1620 E 6th Ave<br><b>Operator: </b>Brightside Community Homes Foundation<br><b>Year when this was initially occupied: </b>1965.0</div>`)[0];
+            popup_f0c344e92997483b8789499c05d7ceea.setContent(html_303fa7e350234b78843f626ff1b9e8b7);
+        
+
+        marker_7c4892e8dba04916a23dfef3619f5c02.bindPopup(popup_f0c344e92997483b8789499c05d7ceea)
+        ;
+
+        
+    
+    
+            var marker_2ca3484657d24e71938844a6e6e0fd3c = L.marker(
+                [49.26575732, -123.14999063],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_180b32c0a52143d1a29f14a26ff5e626 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2ca3484657d24e71938844a6e6e0fd3c.setIcon(icon_180b32c0a52143d1a29f14a26ff5e626);
+        
+    
+        var popup_1488fb35518145a9869d60a2408d07ba = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_987ca895e9884b199afdd365455888d7 = $(`<div id="html_987ca895e9884b199afdd365455888d7" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>38 <br> <b>Address: </b>  1987 W 7th Ave<br><b>Operator: </b>BC Housing<br><b>Year when this was initially occupied: </b>1975.0</div>`)[0];
+            popup_1488fb35518145a9869d60a2408d07ba.setContent(html_987ca895e9884b199afdd365455888d7);
+        
+
+        marker_2ca3484657d24e71938844a6e6e0fd3c.bindPopup(popup_1488fb35518145a9869d60a2408d07ba)
+        ;
+
+        
+    
+    
+            var marker_246eccf75e354722b0849c1ba0813b12 = L.marker(
+                [49.26246017, -123.11246693],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_6f041117a40140a3b46ab776d32905ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_246eccf75e354722b0849c1ba0813b12.setIcon(icon_6f041117a40140a3b46ab776d32905ea);
+        
+    
+        var popup_bfb63790e6cb452d90ad9bc35dfd3a6e = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_137fa298d2e04746a3a83ea976a12497 = $(`<div id="html_137fa298d2e04746a3a83ea976a12497" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>49 <br> <b>Address: </b>  375 W 10th Ave<br><b>Operator: </b>Lutheran Manor Society of Vancouver<br><b>Year when this was initially occupied: </b>1977.0</div>`)[0];
+            popup_bfb63790e6cb452d90ad9bc35dfd3a6e.setContent(html_137fa298d2e04746a3a83ea976a12497);
+        
+
+        marker_246eccf75e354722b0849c1ba0813b12.bindPopup(popup_bfb63790e6cb452d90ad9bc35dfd3a6e)
+        ;
+
+        
+    
+    
+            var marker_c391688a84af46f281b4657265711331 = L.marker(
+                [49.21977498, -123.06809358],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_4f5b28a9081c46d0958816252e4b041b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c391688a84af46f281b4657265711331.setIcon(icon_4f5b28a9081c46d0958816252e4b041b);
+        
+    
+        var popup_60b049c0b7c544a0b0d6abe47f79e1f8 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_c1a8589c2dea49f3ba3ae8760d2c4c72 = $(`<div id="html_c1a8589c2dea49f3ba3ae8760d2c4c72" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>21 <br> <b>Address: </b>  7008 Balmoral St<br><b>Operator: </b>South Amherst Housing Society<br><b>Year when this was initially occupied: </b>1973.0</div>`)[0];
+            popup_60b049c0b7c544a0b0d6abe47f79e1f8.setContent(html_c1a8589c2dea49f3ba3ae8760d2c4c72);
+        
+
+        marker_c391688a84af46f281b4657265711331.bindPopup(popup_60b049c0b7c544a0b0d6abe47f79e1f8)
+        ;
+
+        
+    
+    
+            var marker_6fa1df5387794e2ca25a878777e8ed8d = L.marker(
+                [49.26508927, -123.15956116],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_b7c5de0122594784bf9d377e654d5ffb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6fa1df5387794e2ca25a878777e8ed8d.setIcon(icon_b7c5de0122594784bf9d377e654d5ffb);
+        
+    
+        var popup_b54bf2efb1144232b50e6759da4a30c2 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_44ce6128bacf47d0b6cb96991295c54b = $(`<div id="html_44ce6128bacf47d0b6cb96991295c54b" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>16 <br> <b>Address: </b>  2330 Balsam St<br><b>Operator: </b>Brightside Community Homes Foundation<br><b>Year when this was initially occupied: </b>1967.0</div>`)[0];
+            popup_b54bf2efb1144232b50e6759da4a30c2.setContent(html_44ce6128bacf47d0b6cb96991295c54b);
+        
+
+        marker_6fa1df5387794e2ca25a878777e8ed8d.bindPopup(popup_b54bf2efb1144232b50e6759da4a30c2)
+        ;
+
+        
+    
+    
+            var marker_e29b9699a1654094898ad366a2e74e47 = L.marker(
+                [49.2623094, -123.05120171],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_f434d5950e124da7bc5f33078a889d68 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e29b9699a1654094898ad366a2e74e47.setIcon(icon_f434d5950e124da7bc5f33078a889d68);
+        
+    
+        var popup_a619fbe9cecb46ed8730f92fd5a35996 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_342673f44b984a259182f2c74190015b = $(`<div id="html_342673f44b984a259182f2c74190015b" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>80 <br> <b>Address: </b>  2633 E Broadway<br><b>Operator: </b>Broadway Pentecostal Benevolent Association<br><b>Year when this was initially occupied: </b>1975.0</div>`)[0];
+            popup_a619fbe9cecb46ed8730f92fd5a35996.setContent(html_342673f44b984a259182f2c74190015b);
+        
+
+        marker_e29b9699a1654094898ad366a2e74e47.bindPopup(popup_a619fbe9cecb46ed8730f92fd5a35996)
+        ;
+
+        
+    
+    
+            var marker_80a76e1060ac4948b58f7a4fa65359a6 = L.marker(
+                [49.26414502, -123.03033314],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_660fb7382b2449d99b711094756c55a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_80a76e1060ac4948b58f7a4fa65359a6.setIcon(icon_660fb7382b2449d99b711094756c55a3);
+        
+    
+        var popup_721e80d8b66a40c6989cf468ceb40d8d = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_4e079821f92c46b28d04ca6ce786385d = $(`<div id="html_4e079821f92c46b28d04ca6ce786385d" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>69 <br> <b>Address: </b>  3400 E 5th Av<br><b>Operator: </b>BC Housing<br><b>Year when this was initially occupied: </b>1962.0</div>`)[0];
+            popup_721e80d8b66a40c6989cf468ceb40d8d.setContent(html_4e079821f92c46b28d04ca6ce786385d);
+        
+
+        marker_80a76e1060ac4948b58f7a4fa65359a6.bindPopup(popup_721e80d8b66a40c6989cf468ceb40d8d)
+        ;
+
+        
+    
+    
+            var marker_5c2bd32f07da40bb96432f7b46082e3f = L.marker(
+                [49.27820526, -123.07022885],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_1bac4c69bcff40909973bc87a8da37d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5c2bd32f07da40bb96432f7b46082e3f.setIcon(icon_1bac4c69bcff40909973bc87a8da37d2);
+        
+    
+        var popup_7ce1819c21994012beaeacf5d9b0780f = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_3e70a26623944c26aacd7ebdeeb40996 = $(`<div id="html_3e70a26623944c26aacd7ebdeeb40996" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>24 <br> <b>Address: </b>  740 Commercial Dr<br><b>Operator: </b>Vancouver East Lion's Housing Foundation<br><b>Year when this was initially occupied: </b>1958.0</div>`)[0];
+            popup_7ce1819c21994012beaeacf5d9b0780f.setContent(html_3e70a26623944c26aacd7ebdeeb40996);
+        
+
+        marker_5c2bd32f07da40bb96432f7b46082e3f.bindPopup(popup_7ce1819c21994012beaeacf5d9b0780f)
+        ;
+
+        
+    
+    
+            var marker_4f57795f461648f0bf45f0faeb67f971 = L.marker(
+                [49.28191513, -123.09391899],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_14ca2e536abb4b89aacf9c841f119987 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4f57795f461648f0bf45f0faeb67f971.setIcon(icon_14ca2e536abb4b89aacf9c841f119987);
+        
+    
+        var popup_67305e1d459a4fadb83069f7dfd2e199 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_5e1a05b5f29c478491741ba965a42541 = $(`<div id="html_5e1a05b5f29c478491741ba965a42541" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>147 <br> <b>Address: </b>  450 E Cordova St<br><b>Operator: </b>City of Vancouver<br><b>Year when this was initially occupied: </b>1974.0</div>`)[0];
+            popup_67305e1d459a4fadb83069f7dfd2e199.setContent(html_5e1a05b5f29c478491741ba965a42541);
+        
+
+        marker_4f57795f461648f0bf45f0faeb67f971.bindPopup(popup_67305e1d459a4fadb83069f7dfd2e199)
+        ;
+
+        
+    
+    
+            var marker_457c4f699e0f4e4fa008a5810dc77da8 = L.marker(
+                [49.27966994, -123.09648989],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_8ca7900ef7ef47e3a59dc12f20888d2d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_457c4f699e0f4e4fa008a5810dc77da8.setIcon(icon_8ca7900ef7ef47e3a59dc12f20888d2d);
+        
+    
+        var popup_224c966e82b249e3ae945690fd9c39f6 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_74338507e1ed400f9afb83a50e83fd4f = $(`<div id="html_74338507e1ed400f9afb83a50e83fd4f" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>82 <br> <b>Address: </b>  325 Keefer St<br><b>Operator: </b>Chau Luen Kon Sol Society of Vancouver<br><b>Year when this was initially occupied: </b>1972.0</div>`)[0];
+            popup_224c966e82b249e3ae945690fd9c39f6.setContent(html_74338507e1ed400f9afb83a50e83fd4f);
+        
+
+        marker_457c4f699e0f4e4fa008a5810dc77da8.bindPopup(popup_224c966e82b249e3ae945690fd9c39f6)
+        ;
+
+        
+    
+    
+            var marker_98f3c520357b452dbaf18dd37ed147cc = L.marker(
+                [49.27849178, -123.09526693],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_2a04540148134496a00b66a25b343a89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_98f3c520357b452dbaf18dd37ed147cc.setIcon(icon_2a04540148134496a00b66a25b343a89);
+        
+    
+        var popup_ca76f3d4a81b489eb80e38b7d2ce4c7c = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_845ad0adbe474f4bbcf901dd2a39a6f7 = $(`<div id="html_845ad0adbe474f4bbcf901dd2a39a6f7" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>119 <br> <b>Address: </b>  705 Jackson Ave<br><b>Operator: </b>BC Housing<br><b>Year when this was initially occupied: </b>1965.0</div>`)[0];
+            popup_ca76f3d4a81b489eb80e38b7d2ce4c7c.setContent(html_845ad0adbe474f4bbcf901dd2a39a6f7);
+        
+
+        marker_98f3c520357b452dbaf18dd37ed147cc.bindPopup(popup_ca76f3d4a81b489eb80e38b7d2ce4c7c)
+        ;
+
+        
+    
+    
+            var marker_ef9856871c474ac5bf223f0b33f539d8 = L.marker(
+                [49.21887003, -123.041933],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_d757a6e0a8744b0fa69314cb300a4800 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ef9856871c474ac5bf223f0b33f539d8.setIcon(icon_d757a6e0a8744b0fa69314cb300a4800);
+        
+    
+        var popup_a3a9373ed37049559b16125956167df0 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_a37e386616cd4032b1c60446a001120a = $(`<div id="html_a37e386616cd4032b1c60446a001120a" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>34 <br> <b>Address: </b>  7101 Kerr St<br><b>Operator: </b>Vancouver Kiwanis Senior Citizens Housing Society<br><b>Year when this was initially occupied: </b>1969.0</div>`)[0];
+            popup_a3a9373ed37049559b16125956167df0.setContent(html_a37e386616cd4032b1c60446a001120a);
+        
+
+        marker_ef9856871c474ac5bf223f0b33f539d8.bindPopup(popup_a3a9373ed37049559b16125956167df0)
+        ;
+
+        
+    
+    
+            var marker_20aa696961d543f1bb413d62f6a5f050 = L.marker(
+                [49.24842742, -123.16653193],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_1fd16c3aa0e74636a602550090beca97 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_20aa696961d543f1bb413d62f6a5f050.setIcon(icon_1fd16c3aa0e74636a602550090beca97);
+        
+    
+        var popup_d5daaf7ea95542efa323af9bf4adc57a = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_c04098c9256647d1955eb700ea75f73c = $(`<div id="html_c04098c9256647d1955eb700ea75f73c" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>58 <br> <b>Address: </b>  2751 W King Edward<br><b>Operator: </b>Anglican Homes<br><b>Year when this was initially occupied: </b>1963.0</div>`)[0];
+            popup_d5daaf7ea95542efa323af9bf4adc57a.setContent(html_c04098c9256647d1955eb700ea75f73c);
+        
+
+        marker_20aa696961d543f1bb413d62f6a5f050.bindPopup(popup_d5daaf7ea95542efa323af9bf4adc57a)
+        ;
+
+        
+    
+    
+            var marker_5c1c3189256d425b93a9ad43f7f7aef2 = L.marker(
+                [49.23247694, -123.0265823],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_bec5fd18668648028303ab67c173e3a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5c1c3189256d425b93a9ad43f7f7aef2.setIcon(icon_bec5fd18668648028303ab67c173e3a5);
+        
+    
+        var popup_772ea5b07d9549c6bee6da93331c72f2 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_52d80e1f9c404e4ea9bf6c269ae825b7 = $(`<div id="html_52d80e1f9c404e4ea9bf6c269ae825b7" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>44 <br> <b>Address: </b>  3595 Kingsway<br><b>Operator: </b>Three Links Care Society<br><b>Year when this was initially occupied: </b>1971.0</div>`)[0];
+            popup_772ea5b07d9549c6bee6da93331c72f2.setContent(html_52d80e1f9c404e4ea9bf6c269ae825b7);
+        
+
+        marker_5c1c3189256d425b93a9ad43f7f7aef2.bindPopup(popup_772ea5b07d9549c6bee6da93331c72f2)
+        ;
+
+        
+    
+    
+            var marker_c6c2c24f62bd43939099167b3e6be480 = L.marker(
+                [49.26595347, -123.15077883],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_f5db6451e81d4a69a7cb682b65216458 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c6c2c24f62bd43939099167b3e6be480.setIcon(icon_f5db6451e81d4a69a7cb682b65216458);
+        
+    
+        var popup_26c0202908fa4880972cea427e828d94 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_7445c191fc004f15bb4e9594d143ac94 = $(`<div id="html_7445c191fc004f15bb4e9594d143ac94" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>102 <br> <b>Address: </b>  2229 Maple St<br><b>Operator: </b>Shalom Branch #178 Canadian Legion<br><b>Year when this was initially occupied: </b>1976.0</div>`)[0];
+            popup_26c0202908fa4880972cea427e828d94.setContent(html_7445c191fc004f15bb4e9594d143ac94);
+        
+
+        marker_c6c2c24f62bd43939099167b3e6be480.bindPopup(popup_26c0202908fa4880972cea427e828d94)
+        ;
+
+        
+    
+    
+            var marker_40d8e2b2525641219bf6c53e587f7ff5 = L.marker(
+                [49.27099676, -123.07443151],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_3676c73a39294671aca017485e02b7a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_40d8e2b2525641219bf6c53e587f7ff5.setIcon(icon_3676c73a39294671aca017485e02b7a9);
+        
+    
+        var popup_ac62e873b2a14d0ea463a21b919df40e = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_3ed45c380b804f639b3352769ae69dbc = $(`<div id="html_3ed45c380b804f639b3352769ae69dbc" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>100 <br> <b>Address: </b>  1501 Woodland Dr<br><b>Operator: </b>BC Housing<br><b>Year when this was initially occupied: </b>1969.0</div>`)[0];
+            popup_ac62e873b2a14d0ea463a21b919df40e.setContent(html_3ed45c380b804f639b3352769ae69dbc);
+        
+
+        marker_40d8e2b2525641219bf6c53e587f7ff5.bindPopup(popup_ac62e873b2a14d0ea463a21b919df40e)
+        ;
+
+        
+    
+    
+            var marker_c8d69088548141f7882091913d416a98 = L.marker(
+                [49.23115573, -123.05939466],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_27011c480ae840eca9e0df514ecfe061 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c8d69088548141f7882091913d416a98.setIcon(icon_27011c480ae840eca9e0df514ecfe061);
+        
+    
+        var popup_746df3f5e5414331899caab1a9febd71 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_dfa647ddf6ba4f18aaf6e6f500d09d3a = $(`<div id="html_dfa647ddf6ba4f18aaf6e6f500d09d3a" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>52 <br> <b>Address: </b>  5701 Nanaimo St<br><b>Operator: </b>BC Housing<br><b>Year when this was initially occupied: </b>1959.0</div>`)[0];
+            popup_746df3f5e5414331899caab1a9febd71.setContent(html_dfa647ddf6ba4f18aaf6e6f500d09d3a);
+        
+
+        marker_c8d69088548141f7882091913d416a98.bindPopup(popup_746df3f5e5414331899caab1a9febd71)
+        ;
+
+        
+    
+    
+            var marker_f9ed154b447a42b1a6b7cef613c8f708 = L.marker(
+                [49.28327763, -123.12867658],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_0c1444fa82ec4f858cc72740bf5ebd39 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f9ed154b447a42b1a6b7cef613c8f708.setIcon(icon_0c1444fa82ec4f858cc72740bf5ebd39);
+        
+    
+        var popup_5c433490a33e4e78b79321ff4d71e77b = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_03f42c661775418ba3aba22b3576b2a8 = $(`<div id="html_03f42c661775418ba3aba22b3576b2a8" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>223 <br> <b>Address: </b>  1115 Nelson St<br><b>Operator: </b>The Bloom Group<br><b>Year when this was initially occupied: </b>1969.0</div>`)[0];
+            popup_5c433490a33e4e78b79321ff4d71e77b.setContent(html_03f42c661775418ba3aba22b3576b2a8);
+        
+
+        marker_f9ed154b447a42b1a6b7cef613c8f708.bindPopup(popup_5c433490a33e4e78b79321ff4d71e77b)
+        ;
+
+        
+    
+    
+            var marker_893b45c87b4248bd8618c79079133f27 = L.marker(
+                [49.28280452, -123.13344925],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_8bf9d4615e1f4233acfd27a0822a6888 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_893b45c87b4248bd8618c79079133f27.setIcon(icon_8bf9d4615e1f4233acfd27a0822a6888);
+        
+    
+        var popup_caaf3057b4b84c05b9889eabe994bc67 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_0fd9b4e54c20436da440f62bccb91665 = $(`<div id="html_0fd9b4e54c20436da440f62bccb91665" style="width: 100.0%; height: 100.0%;"><b>SENIORS <br><br>Number of units: </b>87 <br> <b>Address: </b>  1254 Pendrell St<br><b>Operator: </b>Parish of St.Paul-Pendrellis Society<br><b>Year when this was initially occupied: </b>1973.0</div>`)[0];
+            popup_caaf3057b4b84c05b9889eabe994bc67.setContent(html_0fd9b4e54c20436da440f62bccb91665);
+        
+
+        marker_893b45c87b4248bd8618c79079133f27.bindPopup(popup_caaf3057b4b84c05b9889eabe994bc67)
+        ;
+
+        
+    
+    
+            var marker_dffa18301db14492ae2b6c20c1899760 = L.marker(
+                [49.27046454, -123.14995826],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_b29f2c666eba4da8875ca2c51e104ad3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dffa18301db14492ae2b6c20c1899760.setIcon(icon_b29f2c666eba4da8875ca2c51e104ad3);
+        
+    
+        var popup_d87e72376b9b4f1a9e7729de0cacfb9b = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_f5fbc125303841109ca0707807bbdcd3 = $(`<div id="html_f5fbc125303841109ca0707807bbdcd3" style="width: 100.0%; height: 100.0%;"><b>FAMILIES AND OTHERS <br><br>Number of units: </b>15 <br> <b>Address: </b>  1714 Maple St.<br><b>Operator: </b>Sam Greer Place Co-op Housing Association<br><b>Year when this was initially occupied: </b>1977.0</div>`)[0];
+            popup_d87e72376b9b4f1a9e7729de0cacfb9b.setContent(html_f5fbc125303841109ca0707807bbdcd3);
+        
+
+        marker_dffa18301db14492ae2b6c20c1899760.bindPopup(popup_d87e72376b9b4f1a9e7729de0cacfb9b)
+        ;
+
+        
+    
+    
+            var marker_adac7dfc4681409390d5ef9ae92bd8c9 = L.marker(
+                [49.27045566, -123.19038711],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_69792b848c494efcaa9fa30c4c291433 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_adac7dfc4681409390d5ef9ae92bd8c9.setIcon(icon_69792b848c494efcaa9fa30c4c291433);
+        
+    
+        var popup_42140b1d72c74bf697df9dcf9b75d6da = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_8ad5793c293a4a698cd4e73c14ead534 = $(`<div id="html_8ad5793c293a4a698cd4e73c14ead534" style="width: 100.0%; height: 100.0%;"><b>FAMILIES AND OTHERS <br><br>Number of units: </b>37 <br> <b>Address: </b>  3859 W 2nd Ave<br><b>Operator: </b>Metro Vancouver Housing Corporation<br><b>Year when this was initially occupied: </b>1980.0</div>`)[0];
+            popup_42140b1d72c74bf697df9dcf9b75d6da.setContent(html_8ad5793c293a4a698cd4e73c14ead534);
+        
+
+        marker_adac7dfc4681409390d5ef9ae92bd8c9.bindPopup(popup_42140b1d72c74bf697df9dcf9b75d6da)
+        ;
+
+        
+    
+    
+            var marker_59aaaec1a8eb4eeb97fd7915262bd8bd = L.marker(
+                [49.26755868, -123.07052778],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_65f4691c54e1420eb76ddca1e985f31c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_59aaaec1a8eb4eeb97fd7915262bd8bd.setIcon(icon_65f4691c54e1420eb76ddca1e985f31c);
+        
+    
+        var popup_2aa12ed4205343d7a940768d5e583c30 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_d35d77071ebb46c88cc1780b10867b64 = $(`<div id="html_d35d77071ebb46c88cc1780b10867b64" style="width: 100.0%; height: 100.0%;"><b>FAMILIES AND OTHERS <br><br>Number of units: </b>33 <br> <b>Address: </b>  1650 E 3rd Ave<br><b>Operator: </b>Coast Foundation Society<br><b>Year when this was initially occupied: </b>1980.0</div>`)[0];
+            popup_2aa12ed4205343d7a940768d5e583c30.setContent(html_d35d77071ebb46c88cc1780b10867b64);
+        
+
+        marker_59aaaec1a8eb4eeb97fd7915262bd8bd.bindPopup(popup_2aa12ed4205343d7a940768d5e583c30)
+        ;
+
+        
+    
+    
+            var marker_328fed9af597479ba1c0aa7f204b285d = L.marker(
+                [49.26555761, -123.06799095],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_358be2c8c71e4c4687a9e1b9fe16e6b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_328fed9af597479ba1c0aa7f204b285d.setIcon(icon_358be2c8c71e4c4687a9e1b9fe16e6b6);
+        
+    
+        var popup_75522b7660794979ac72508e3d8ca0ce = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_a1bf52ba9e1d43ee960677c6321c25d9 = $(`<div id="html_a1bf52ba9e1d43ee960677c6321c25d9" style="width: 100.0%; height: 100.0%;"><b>FAMILIES AND OTHERS <br><br>Number of units: </b>25 <br> <b>Address: </b>  1800 E 5th Ave<br><b>Operator: </b>BC Housing<br><b>Year when this was initially occupied: </b>1976.0</div>`)[0];
+            popup_75522b7660794979ac72508e3d8ca0ce.setContent(html_a1bf52ba9e1d43ee960677c6321c25d9);
+        
+
+        marker_328fed9af597479ba1c0aa7f204b285d.bindPopup(popup_75522b7660794979ac72508e3d8ca0ce)
+        ;
+
+        
+    
+    
+            var marker_1df1858b634748a78b09d719083a5771 = L.marker(
+                [49.26400829, -123.08252037],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_5fd689bc36504501bbac6e4b13663fb2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1df1858b634748a78b09d719083a5771.setIcon(icon_5fd689bc36504501bbac6e4b13663fb2);
+        
+    
+        var popup_eac4ff883c56487e90ab226bc944dffe = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_6fca6b87a89c46afa338127390398d89 = $(`<div id="html_6fca6b87a89c46afa338127390398d89" style="width: 100.0%; height: 100.0%;"><b>FAMILIES AND OTHERS <br><br>Number of units: </b>18 <br> <b>Address: </b>  1040 E 7th Ave<br><b>Operator: </b>BC Housing<br><b>Year when this was initially occupied: </b>1974.0</div>`)[0];
+            popup_eac4ff883c56487e90ab226bc944dffe.setContent(html_6fca6b87a89c46afa338127390398d89);
+        
+
+        marker_1df1858b634748a78b09d719083a5771.bindPopup(popup_eac4ff883c56487e90ab226bc944dffe)
+        ;
+
+        
+    
+    
+            var marker_fa935401870d49399a93f6d844f5afa7 = L.marker(
+                [49.2649808, -123.09008792],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_bd4c9967b023485baa90eea3079f98e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fa935401870d49399a93f6d844f5afa7.setIcon(icon_bd4c9967b023485baa90eea3079f98e7);
+        
+    
+        var popup_45ce84c5f72c4cee892cb48c4c5283f5 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_6602c179a97944efa986aed2e9f6fe3b = $(`<div id="html_6602c179a97944efa986aed2e9f6fe3b" style="width: 100.0%; height: 100.0%;"><b>FAMILIES AND OTHERS <br><br>Number of units: </b>50 <br> <b>Address: </b>  600 E 6th Ave<br><b>Operator: </b>BC Housing<br><b>Year when this was initially occupied: </b>1970.0</div>`)[0];
+            popup_45ce84c5f72c4cee892cb48c4c5283f5.setContent(html_6602c179a97944efa986aed2e9f6fe3b);
+        
+
+        marker_fa935401870d49399a93f6d844f5afa7.bindPopup(popup_45ce84c5f72c4cee892cb48c4c5283f5)
+        ;
+
+        
+    
+    
+            var marker_ef6f2bdef92e4b9f853de3e2fdd6f9e4 = L.marker(
+                [49.25804597, -123.07481742],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_f76df989ead8463c9339a809f3113d74 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ef6f2bdef92e4b9f853de3e2fdd6f9e4.setIcon(icon_f76df989ead8463c9339a809f3113d74);
+        
+    
+        var popup_bc099db9e39a4bdb9694a83f1630783d = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_039d79f9786b4ef9a11d1549d93d5912 = $(`<div id="html_039d79f9786b4ef9a11d1549d93d5912" style="width: 100.0%; height: 100.0%;"><b>FAMILIES AND OTHERS <br><br>Number of units: </b>17 <br> <b>Address: </b>  1435 E 14th Ave<br><b>Operator: </b>Coast Foundation Society<br><b>Year when this was initially occupied: </b>1977.0</div>`)[0];
+            popup_bc099db9e39a4bdb9694a83f1630783d.setContent(html_039d79f9786b4ef9a11d1549d93d5912);
+        
+
+        marker_ef6f2bdef92e4b9f853de3e2fdd6f9e4.bindPopup(popup_bc099db9e39a4bdb9694a83f1630783d)
+        ;
+
+        
+    
+    
+            var marker_fcf8896989f34ef7a75143f977429781 = L.marker(
+                [49.24741422, -123.05903401],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_7a422dd5ea6c4b8b8e39f5f8bf1e01b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fcf8896989f34ef7a75143f977429781.setIcon(icon_7a422dd5ea6c4b8b8e39f5f8bf1e01b0);
+        
+    
+        var popup_c17b490adf29498abf03e0897232d57a = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_a82515c9c5cc4c3c8cbe03e9c071d029 = $(`<div id="html_a82515c9c5cc4c3c8cbe03e9c071d029" style="width: 100.0%; height: 100.0%;"><b>FAMILIES AND OTHERS <br><br>Number of units: </b>48 <br> <b>Address: </b>  2270 E 25th Ave<br><b>Operator: </b>BC Housing<br><b>Year when this was initially occupied: </b>1971.0</div>`)[0];
+            popup_c17b490adf29498abf03e0897232d57a.setContent(html_a82515c9c5cc4c3c8cbe03e9c071d029);
+        
+
+        marker_fcf8896989f34ef7a75143f977429781.bindPopup(popup_c17b490adf29498abf03e0897232d57a)
+        ;
+
+        
+    
+    
+            var marker_9e3f2b6d4546433fb28a1735a8f1e00a = L.marker(
+                [49.21763425, -123.03649042],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_af4dcc73b68d4f88a0497c6605801ad7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9e3f2b6d4546433fb28a1735a8f1e00a.setIcon(icon_af4dcc73b68d4f88a0497c6605801ad7);
+        
+    
+        var popup_d1bab7ec548c4935a6f4a1804e851b96 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_ecb26bc268f642d3a3185aa7c87c9d00 = $(`<div id="html_ecb26bc268f642d3a3185aa7c87c9d00" style="width: 100.0%; height: 100.0%;"><b>FAMILIES AND OTHERS <br><br>Number of units: </b>100 <br> <b>Address: </b>  3217 E 58th Ave<br><b>Operator: </b>BC Housing<br><b>Year when this was initially occupied: </b>1973.0</div>`)[0];
+            popup_d1bab7ec548c4935a6f4a1804e851b96.setContent(html_ecb26bc268f642d3a3185aa7c87c9d00);
+        
+
+        marker_9e3f2b6d4546433fb28a1735a8f1e00a.bindPopup(popup_d1bab7ec548c4935a6f4a1804e851b96)
+        ;
+
+        
+    
+    
+            var marker_cc446ca73b9d482a920caf9b3561557c = L.marker(
+                [49.21811899, -123.03056313],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_045124740bc44fe08ff97df7f8b2aeb3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cc446ca73b9d482a920caf9b3561557c.setIcon(icon_045124740bc44fe08ff97df7f8b2aeb3);
+        
+    
+        var popup_ecbf2ad1325b4abb88c8798923676f78 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_dc5f0d67714d49fd941e50b88820be46 = $(`<div id="html_dc5f0d67714d49fd941e50b88820be46" style="width: 100.0%; height: 100.0%;"><b>FAMILIES AND OTHERS <br><br>Number of units: </b>150 <br> <b>Address: </b>  7155 Blake St<br><b>Operator: </b>Kanata Co-op Housing Association<br><b>Year when this was initially occupied: </b>1975.0</div>`)[0];
+            popup_ecbf2ad1325b4abb88c8798923676f78.setContent(html_dc5f0d67714d49fd941e50b88820be46);
+        
+
+        marker_cc446ca73b9d482a920caf9b3561557c.bindPopup(popup_ecbf2ad1325b4abb88c8798923676f78)
+        ;
+
+        
+    
+    
+            var marker_c29cbcf755c94defadcf4920861d1b54 = L.marker(
+                [49.25744846, -123.04263316],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_25747f4e2eac430997bf70174d8c7003 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c29cbcf755c94defadcf4920861d1b54.setIcon(icon_25747f4e2eac430997bf70174d8c7003);
+        
+    
+        var popup_f33e695f3a4d48328e4055c6c4305c92 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_1599c5e8bad44a78bc745068c9b59966 = $(`<div id="html_1599c5e8bad44a78bc745068c9b59966" style="width: 100.0%; height: 100.0%;"><b>FAMILIES AND OTHERS <br><br>Number of units: </b>45 <br> <b>Address: </b>  2929 Nootka St<br><b>Operator: </b>Metro Vancouver Housing Corporation<br><b>Year when this was initially occupied: </b>1979.0</div>`)[0];
+            popup_f33e695f3a4d48328e4055c6c4305c92.setContent(html_1599c5e8bad44a78bc745068c9b59966);
+        
+
+        marker_c29cbcf755c94defadcf4920861d1b54.bindPopup(popup_f33e695f3a4d48328e4055c6c4305c92)
+        ;
+
+        
+    
+    
+            var marker_b58c928fe7c2411d8579385e13791595 = L.marker(
+                [49.21503813, -123.02658047],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_db6a93281b0740a891864283e276073a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b58c928fe7c2411d8579385e13791595.setIcon(icon_db6a93281b0740a891864283e276073a);
+        
+    
+        var popup_6697ce995fb84996b6ccf432099750c4 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_4598e5165ac6449581f30ddcfc45b091 = $(`<div id="html_4598e5165ac6449581f30ddcfc45b091" style="width: 100.0%; height: 100.0%;"><b>FAMILIES AND OTHERS <br><br>Number of units: </b>105 <br> <b>Address: </b>  7601 Bywell Crt<br><b>Operator: </b>Metro Vancouver Housing Corporation<br><b>Year when this was initially occupied: </b>1979.0</div>`)[0];
+            popup_6697ce995fb84996b6ccf432099750c4.setContent(html_4598e5165ac6449581f30ddcfc45b091);
+        
+
+        marker_b58c928fe7c2411d8579385e13791595.bindPopup(popup_6697ce995fb84996b6ccf432099750c4)
+        ;
+
+        
+    
+    
+            var marker_13bcde7981504b75ada6da796f85f098 = L.marker(
+                [49.28365654, -123.06334994],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_05a1066d31f74a1dac11e9be01710de4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_13bcde7981504b75ada6da796f85f098.setIcon(icon_05a1066d31f74a1dac11e9be01710de4);
+        
+    
+        var popup_a7254ef8d39f45c7955714cbac024018 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_97da19f0fd24412fa28f8d2995aefa55 = $(`<div id="html_97da19f0fd24412fa28f8d2995aefa55" style="width: 100.0%; height: 100.0%;"><b>FAMILIES AND OTHERS <br><br>Number of units: </b>12 <br> <b>Address: </b>  100 Semlin Dr<br><b>Operator: </b>Metro Vancouver Housing Corporation<br><b>Year when this was initially occupied: </b>1977.0</div>`)[0];
+            popup_a7254ef8d39f45c7955714cbac024018.setContent(html_97da19f0fd24412fa28f8d2995aefa55);
+        
+
+        marker_13bcde7981504b75ada6da796f85f098.bindPopup(popup_a7254ef8d39f45c7955714cbac024018)
+        ;
+
+        
+    
+    
+            var marker_80ccb02ac3944cdf947620e9757ff09f = L.marker(
+                [49.21703561, -123.02619985],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_e77a9aa405974da8a280a1af7b2b7609 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_80ccb02ac3944cdf947620e9757ff09f.setIcon(icon_e77a9aa405974da8a280a1af7b2b7609);
+        
+    
+        var popup_e2fe29c72efc4c55821418a117d0d25d = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_ee0f0c4415ef45f7b62157371d5c0d87 = $(`<div id="html_ee0f0c4415ef45f7b62157371d5c0d87" style="width: 100.0%; height: 100.0%;"><b>FAMILIES AND OTHERS <br><br>Number of units: </b>66 <br> <b>Address: </b>  7401 Talon Square<br><b>Operator: </b>La Petite Maison Co-op Housing Association<br><b>Year when this was initially occupied: </b>1978.0</div>`)[0];
+            popup_e2fe29c72efc4c55821418a117d0d25d.setContent(html_ee0f0c4415ef45f7b62157371d5c0d87);
+        
+
+        marker_80ccb02ac3944cdf947620e9757ff09f.bindPopup(popup_e2fe29c72efc4c55821418a117d0d25d)
+        ;
+
+        
+    
+    
+            var marker_f97bf743bdfa4ea6aed67af94d90445f = L.marker(
+                [49.2768758, -123.06689398],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_d26404ba2cfc4975a0ec4d0993a0f29c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f97bf743bdfa4ea6aed67af94d90445f.setIcon(icon_d26404ba2cfc4975a0ec4d0993a0f29c);
+        
+    
+        var popup_f18cabd5098045b5843c22063c8eca40 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_6e8c20e37bdb488997c8052f4862153c = $(`<div id="html_6e8c20e37bdb488997c8052f4862153c" style="width: 100.0%; height: 100.0%;"><b>FAMILIES AND OTHERS <br><br>Number of units: </b>4 <br> <b>Address: </b>  1857 Venables St<br><b>Operator: </b>Vancouver East Co-op Housing Association<br><b>Year when this was initially occupied: </b>1980.0</div>`)[0];
+            popup_f18cabd5098045b5843c22063c8eca40.setContent(html_6e8c20e37bdb488997c8052f4862153c);
+        
+
+        marker_f97bf743bdfa4ea6aed67af94d90445f.bindPopup(popup_f18cabd5098045b5843c22063c8eca40)
+        ;
+
+        
+    
+    
+            var marker_ca2319af91d14a4a8c394ad3035436d3 = L.marker(
+                [49.26695534, -123.12771481],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_27aaab3722c041d0867f4b5fcb227983 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ca2319af91d14a4a8c394ad3035436d3.setIcon(icon_27aaab3722c041d0867f4b5fcb227983);
+        
+    
+        var popup_c897fd2e39b940ac86a01f1301ac5225 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_d73cf635de4242f187be26180e65544c = $(`<div id="html_d73cf635de4242f187be26180e65544c" style="width: 100.0%; height: 100.0%;"><b>FAMILIES AND OTHERS <br><br>Number of units: </b>88 <br> <b>Address: </b>  907 Lamey's Mill<br><b>Operator: </b>False Creek Co-op Housing Association<br><b>Year when this was initially occupied: </b>1977.0</div>`)[0];
+            popup_c897fd2e39b940ac86a01f1301ac5225.setContent(html_d73cf635de4242f187be26180e65544c);
+        
+
+        marker_ca2319af91d14a4a8c394ad3035436d3.bindPopup(popup_c897fd2e39b940ac86a01f1301ac5225)
+        ;
+
+        
+    
+    
+            var marker_b7dd82eb7f9c4a0390a02ad99b882d57 = L.marker(
+                [49.28326456, -123.06295686],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_2ed1ac1b983042d5bcd28915684d6718 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b7dd82eb7f9c4a0390a02ad99b882d57.setIcon(icon_2ed1ac1b983042d5bcd28915684d6718);
+        
+    
+        var popup_48978cb3ff9546358b1bce2f41329853 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_fc31c2e6813e4dc28f3db4e0803b58b4 = $(`<div id="html_fc31c2e6813e4dc28f3db4e0803b58b4" style="width: 100.0%; height: 100.0%;"><b>FAMILIES AND OTHERS <br><br>Number of units: </b>12 <br> <b>Address: </b>  150 Semlin Dr<br><b>Operator: </b>Metro Vancouver Housing Corporation<br><b>Year when this was initially occupied: </b>1977.0</div>`)[0];
+            popup_48978cb3ff9546358b1bce2f41329853.setContent(html_fc31c2e6813e4dc28f3db4e0803b58b4);
+        
+
+        marker_b7dd82eb7f9c4a0390a02ad99b882d57.bindPopup(popup_48978cb3ff9546358b1bce2f41329853)
+        ;
+
+        
+    
+    
+            var marker_c361489aefd745c6afe9003c466674dd = L.marker(
+                [49.26414271, -123.02907422],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_bb384fb2315b458c92265515aba75158 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c361489aefd745c6afe9003c466674dd.setIcon(icon_bb384fb2315b458c92265515aba75158);
+        
+    
+        var popup_5001c2f2dd6d49cc83090fd886312bdf = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_7db4a39af03942578b315ca055f6ad18 = $(`<div id="html_7db4a39af03942578b315ca055f6ad18" style="width: 100.0%; height: 100.0%;"><b>FAMILIES AND OTHERS <br><br>Number of units: </b>94 <br> <b>Address: </b>  2203 Skenna St<br><b>Operator: </b>BC Housing<br><b>Year when this was initially occupied: </b>1962.0</div>`)[0];
+            popup_5001c2f2dd6d49cc83090fd886312bdf.setContent(html_7db4a39af03942578b315ca055f6ad18);
+        
+
+        marker_c361489aefd745c6afe9003c466674dd.bindPopup(popup_5001c2f2dd6d49cc83090fd886312bdf)
+        ;
+
+        
+    
+    
+            var marker_5f89226490de47e28074d26f098cb3c7 = L.marker(
+                [49.25663732, -123.11276833],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_6c95150d5b594f76ae88eec900f87e6e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5f89226490de47e28074d26f098cb3c7.setIcon(icon_6c95150d5b594f76ae88eec900f87e6e);
+        
+    
+        var popup_51df2bd116c940f2a0478a09a5a3c730 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_77e2c475b34d4eb785c249aff1c15232 = $(`<div id="html_77e2c475b34d4eb785c249aff1c15232" style="width: 100.0%; height: 100.0%;"><b>FAMILIES AND OTHERS <br><br>Number of units: </b>30 <br> <b>Address: </b>  420 W 16th Ave<br><b>Operator: </b>BC Housing<br><b>Year when this was initially occupied: </b>1976.0</div>`)[0];
+            popup_51df2bd116c940f2a0478a09a5a3c730.setContent(html_77e2c475b34d4eb785c249aff1c15232);
+        
+
+        marker_5f89226490de47e28074d26f098cb3c7.bindPopup(popup_51df2bd116c940f2a0478a09a5a3c730)
+        ;
+
+        
+    
+    
+            var marker_2bb091b8f5d24c26b504da6bc4ede76d = L.marker(
+                [49.2228022, -123.02554929],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_0c2802d5523c409dbceeb6ab7a49d0e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2bb091b8f5d24c26b504da6bc4ede76d.setIcon(icon_0c2802d5523c409dbceeb6ab7a49d0e4);
+        
+    
+        var popup_cef79902a7874a9eb893076c62c5fe00 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_69ea8f5dbd6a4f18af2288ad89da11c7 = $(`<div id="html_69ea8f5dbd6a4f18af2288ad89da11c7" style="width: 100.0%; height: 100.0%;"><b>FAMILIES AND OTHERS <br><br>Number of units: </b>110 <br> <b>Address: </b>  3564 Dease Lane<br><b>Operator: </b>De Cosmos Village Co-op Housing Association<br><b>Year when this was initially occupied: </b>1972.0</div>`)[0];
+            popup_cef79902a7874a9eb893076c62c5fe00.setContent(html_69ea8f5dbd6a4f18af2288ad89da11c7);
+        
+
+        marker_2bb091b8f5d24c26b504da6bc4ede76d.bindPopup(popup_cef79902a7874a9eb893076c62c5fe00)
+        ;
+
+        
+    
+    
+            var marker_4b72e074da364dbcb12086100514e3e0 = L.marker(
+                [49.2344612, -123.02988574],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_5e3fb297fb06430383079c772d8753cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4b72e074da364dbcb12086100514e3e0.setIcon(icon_5e3fb297fb06430383079c772d8753cd);
+        
+    
+        var popup_5e22cdb0487f413584b2b4ed3e83737f = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_9b0f2ad691fd4592ac6095293e367f96 = $(`<div id="html_9b0f2ad691fd4592ac6095293e367f96" style="width: 100.0%; height: 100.0%;"><b>FAMILIES AND OTHERS <br><br>Number of units: </b>33 <br> <b>Address: </b>  3520 Euclid Ave<br><b>Operator: </b>Metro Vancouver Housing Corporation<br><b>Year when this was initially occupied: </b>1979.0</div>`)[0];
+            popup_5e22cdb0487f413584b2b4ed3e83737f.setContent(html_9b0f2ad691fd4592ac6095293e367f96);
+        
+
+        marker_4b72e074da364dbcb12086100514e3e0.bindPopup(popup_5e22cdb0487f413584b2b4ed3e83737f)
+        ;
+
+        
+    
+    
+            var marker_4eb150c0dfbb435387e48d3b7499445a = L.marker(
+                [49.25849645, -123.05390317],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_c12adc2d39c74f89bfe2e66a913d321a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4eb150c0dfbb435387e48d3b7499445a.setIcon(icon_c12adc2d39c74f89bfe2e66a913d321a);
+        
+    
+        var popup_b5b4377b602d4db28439f09b02d7d736 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_c4f492fdd2fc409f93330c0921a7b85c = $(`<div id="html_c4f492fdd2fc409f93330c0921a7b85c" style="width: 100.0%; height: 100.0%;"><b>FAMILIES AND OTHERS <br><br>Number of units: </b>20 <br> <b>Address: </b>  2535 Grandview Hwy N<br><b>Operator: </b>Metro Vancouver Housing Corporation<br><b>Year when this was initially occupied: </b>1977.0</div>`)[0];
+            popup_b5b4377b602d4db28439f09b02d7d736.setContent(html_c4f492fdd2fc409f93330c0921a7b85c);
+        
+
+        marker_4eb150c0dfbb435387e48d3b7499445a.bindPopup(popup_b5b4377b602d4db28439f09b02d7d736)
+        ;
+
+        
+    
+    
+            var marker_487b146d4c4c437cb1085e5c841cd330 = L.marker(
+                [49.27734561, -123.07393952],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_364d451c37f6403d9168f45c309d3284 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_487b146d4c4c437cb1085e5c841cd330.setIcon(icon_364d451c37f6403d9168f45c309d3284);
+        
+    
+        var popup_c89af8f13b3f46ddbe1288d2a7f5ea96 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_cafda96a7e9e476b9c53e22f6c9c7b01 = $(`<div id="html_cafda96a7e9e476b9c53e22f6c9c7b01" style="width: 100.0%; height: 100.0%;"><b>FAMILIES AND OTHERS <br><br>Number of units: </b>19 <br> <b>Address: </b>  800 McLean Dr<br><b>Operator: </b>BC Housing<br><b>Year when this was initially occupied: </b>1976.0</div>`)[0];
+            popup_c89af8f13b3f46ddbe1288d2a7f5ea96.setContent(html_cafda96a7e9e476b9c53e22f6c9c7b01);
+        
+
+        marker_487b146d4c4c437cb1085e5c841cd330.bindPopup(popup_c89af8f13b3f46ddbe1288d2a7f5ea96)
+        ;
+
+        
+    
+    
+            var marker_e4b80c07be964d65a2d45497e37c6ae0 = L.marker(
+                [49.27517545, -123.07487688],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_474afa23704c49fcbf587484296dc792 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e4b80c07be964d65a2d45497e37c6ae0.setIcon(icon_474afa23704c49fcbf587484296dc792);
+        
+    
+        var popup_c46b45d86f58469793072934f150d269 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_dbb870f98b7f48c49d3c1f0bbfc3b4e5 = $(`<div id="html_dbb870f98b7f48c49d3c1f0bbfc3b4e5" style="width: 100.0%; height: 100.0%;"><b>FAMILIES AND OTHERS <br><br>Number of units: </b>19 <br> <b>Address: </b>  1455 Napier St<br><b>Operator: </b>Grandview Co-op Housing Association<br><b>Year when this was initially occupied: </b>1980.0</div>`)[0];
+            popup_c46b45d86f58469793072934f150d269.setContent(html_dbb870f98b7f48c49d3c1f0bbfc3b4e5);
+        
+
+        marker_e4b80c07be964d65a2d45497e37c6ae0.bindPopup(popup_c46b45d86f58469793072934f150d269)
+        ;
+
+        
+    
+    
+            var marker_2b440de94eac401a95cbc6cbcbe5fa50 = L.marker(
+                [49.24060975, -123.03639148],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_573a867479b74a4d900b42e082b6889c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2b440de94eac401a95cbc6cbcbe5fa50.setIcon(icon_573a867479b74a4d900b42e082b6889c);
+        
+    
+        var popup_1113b1792e2d4fce977769c69475eb85 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_1238da0304ca4ae5b2f03182d5fb7b48 = $(`<div id="html_1238da0304ca4ae5b2f03182d5fb7b48" style="width: 100.0%; height: 100.0%;"><b>FAMILIES AND OTHERS <br><br>Number of units: </b>42 <br> <b>Address: </b>  4830 Rupert St<br><b>Operator: </b>BC Housing<br><b>Year when this was initially occupied: </b>1971.0</div>`)[0];
+            popup_1113b1792e2d4fce977769c69475eb85.setContent(html_1238da0304ca4ae5b2f03182d5fb7b48);
+        
+
+        marker_2b440de94eac401a95cbc6cbcbe5fa50.bindPopup(popup_1113b1792e2d4fce977769c69475eb85)
+        ;
+
+        
+    
+    
+            var marker_0591b6f931b44bfda295155bf499cf03 = L.marker(
+                [49.26419383, -123.15791342],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_823cbc686d354cfb80e5a0633782bafc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0591b6f931b44bfda295155bf499cf03.setIcon(icon_823cbc686d354cfb80e5a0633782bafc);
+        
+    
+        var popup_5768a89d4d324f2e9cd67ac5c7a7cf7f = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_f1f351c1b7c648ad874222baa8be2175 = $(`<div id="html_f1f351c1b7c648ad874222baa8be2175" style="width: 100.0%; height: 100.0%;"><b>FAMILIES AND OTHERS <br><br>Number of units: </b>17 <br> <b>Address: </b>  2431 Vine St<br><b>Operator: </b>Kiwassa Housing Society<br><b>Year when this was initially occupied: </b>1979.0</div>`)[0];
+            popup_5768a89d4d324f2e9cd67ac5c7a7cf7f.setContent(html_f1f351c1b7c648ad874222baa8be2175);
+        
+
+        marker_0591b6f931b44bfda295155bf499cf03.bindPopup(popup_5768a89d4d324f2e9cd67ac5c7a7cf7f)
+        ;
+
+        
+    
+    
+            var marker_e3083b40234a4220835f51d290f1ec26 = L.marker(
+                [49.2827525, -123.06336388],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_d9d0cc5a0bed46909ca5e5ef1e67c443 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e3083b40234a4220835f51d290f1ec26.setIcon(icon_d9d0cc5a0bed46909ca5e5ef1e67c443);
+        
+    
+        var popup_8315df12378d45249593f1771b6d323b = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_82d7383179b54da9a42c01fb20f5fe5e = $(`<div id="html_82d7383179b54da9a42c01fb20f5fe5e" style="width: 100.0%; height: 100.0%;"><b>FAMILIES AND OTHERS <br><br>Number of units: </b>12 <br> <b>Address: </b>  200 Semlin Dr<br><b>Operator: </b>Metro Vancouver Housing Corporation<br><b>Year when this was initially occupied: </b>1977.0</div>`)[0];
+            popup_8315df12378d45249593f1771b6d323b.setContent(html_82d7383179b54da9a42c01fb20f5fe5e);
+        
+
+        marker_e3083b40234a4220835f51d290f1ec26.bindPopup(popup_8315df12378d45249593f1771b6d323b)
+        ;
+
+        
+    
+    
+            var marker_781627c3546845fea8e7bf92288f1c3e = L.marker(
+                [49.28521426, -123.13496572],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_ffdaa50f4f7f4c2a9e48f3e8db725c3c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_781627c3546845fea8e7bf92288f1c3e.setIcon(icon_ffdaa50f4f7f4c2a9e48f3e8db725c3c);
+        
+    
+        var popup_c6ab5e0f7e8342668df45bc19ecc3a3f = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_50a7827168ae43388d49dd13621676d8 = $(`<div id="html_50a7827168ae43388d49dd13621676d8" style="width: 100.0%; height: 100.0%;"><b>FAMILIES AND OTHERS <br><br>Number of units: </b>29 <br> <b>Address: </b>  1424 Comox St<br><b>Operator: </b>BC Housing<br><b>Year when this was initially occupied: </b>1977.0</div>`)[0];
+            popup_c6ab5e0f7e8342668df45bc19ecc3a3f.setContent(html_50a7827168ae43388d49dd13621676d8);
+        
+
+        marker_781627c3546845fea8e7bf92288f1c3e.bindPopup(popup_c6ab5e0f7e8342668df45bc19ecc3a3f)
+        ;
+
+        
+    
+    
+            var marker_fc0095924def4bcf9c74fe665a18baf8 = L.marker(
+                [49.27007463, -123.14884018],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_c94d55babc2e4e41a6c17c7b5ffa90b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fc0095924def4bcf9c74fe665a18baf8.setIcon(icon_c94d55babc2e4e41a6c17c7b5ffa90b9);
+        
+    
+        var popup_9a6ff041d0234868b42340e934d3fea3 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_ea6db61370db427fa0a5f2fb2344908a = $(`<div id="html_ea6db61370db427fa0a5f2fb2344908a" style="width: 100.0%; height: 100.0%;"><b>FAMILIES AND OTHERS <br><br>Number of units: </b>9 <br> <b>Address: </b>  1937 W 2nd Ave<br><b>Operator: </b>Community Alternatives Co-op Housing Association<br><b>Year when this was initially occupied: </b>1979.0</div>`)[0];
+            popup_9a6ff041d0234868b42340e934d3fea3.setContent(html_ea6db61370db427fa0a5f2fb2344908a);
+        
+
+        marker_fc0095924def4bcf9c74fe665a18baf8.bindPopup(popup_9a6ff041d0234868b42340e934d3fea3)
+        ;
+
+        
+    
+    
+            var marker_013ba3d5edce420c82f34ac8983283c3 = L.marker(
+                [49.2763955, -123.02811463],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_47724c5c499f4aae88aabaa8408e945f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_013ba3d5edce420c82f34ac8983283c3.setIcon(icon_47724c5c499f4aae88aabaa8408e945f);
+        
+    
+        var popup_eecc272a0fa94ea5a0fc18c7f40ea520 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_90319b1c8a1d4218a594065969b83f80 = $(`<div id="html_90319b1c8a1d4218a594065969b83f80" style="width: 100.0%; height: 100.0%;"><b>FAMILIES AND OTHERS <br><br>Number of units: </b>160 <br> <b>Address: </b>  950 Cassiar St<br><b>Operator: </b>Access Co-op Housing Association<br><b>Year when this was initially occupied: </b>1978.0</div>`)[0];
+            popup_eecc272a0fa94ea5a0fc18c7f40ea520.setContent(html_90319b1c8a1d4218a594065969b83f80);
+        
+
+        marker_013ba3d5edce420c82f34ac8983283c3.bindPopup(popup_eecc272a0fa94ea5a0fc18c7f40ea520)
+        ;
+
+        
+    
+    
+            var marker_ade28984fb344e279a8d5a626d4d7a99 = L.marker(
+                [49.28597748, -123.13615031],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_ba9d499391ec4431842a3a04e61f7a2d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ade28984fb344e279a8d5a626d4d7a99.setIcon(icon_ba9d499391ec4431842a3a04e61f7a2d);
+        
+    
+        var popup_7c4365e5d6024a4ea73ea23096da662a = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_4a6dcf637fbf410db92219703ba8f381 = $(`<div id="html_4a6dcf637fbf410db92219703ba8f381" style="width: 100.0%; height: 100.0%;"><b>FAMILIES AND OTHERS <br><br>Number of units: </b>29 <br> <b>Address: </b>  1528 Comox St<br><b>Operator: </b>BC Housing<br><b>Year when this was initially occupied: </b>1977.0</div>`)[0];
+            popup_7c4365e5d6024a4ea73ea23096da662a.setContent(html_4a6dcf637fbf410db92219703ba8f381);
+        
+
+        marker_ade28984fb344e279a8d5a626d4d7a99.bindPopup(popup_7c4365e5d6024a4ea73ea23096da662a)
+        ;
+
+        
+    
+    
+            var marker_b3e89def3ae64a7bbd5c2c511dce768e = L.marker(
+                [49.26444467, -123.14845684],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_73918182ee514837b916b404a94e91c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b3e89def3ae64a7bbd5c2c511dce768e.setIcon(icon_73918182ee514837b916b404a94e91c3);
+        
+    
+        var popup_c4348559ab0e48cb838cd4e80478fe54 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_b62527f85da64a99b273e974d4dabf62 = $(`<div id="html_b62527f85da64a99b273e974d4dabf62" style="width: 100.0%; height: 100.0%;"><b>FAMILIES AND OTHERS <br><br>Number of units: </b>32 <br> <b>Address: </b>  2425 Cypress St<br><b>Operator: </b>BC Housing<br><b>Year when this was initially occupied: </b>1976.0</div>`)[0];
+            popup_c4348559ab0e48cb838cd4e80478fe54.setContent(html_b62527f85da64a99b273e974d4dabf62);
+        
+
+        marker_b3e89def3ae64a7bbd5c2c511dce768e.bindPopup(popup_c4348559ab0e48cb838cd4e80478fe54)
+        ;
+
+        
+    
+    
+            var marker_3f5f267d8ee943cdbc589d8607e7d1b9 = L.marker(
+                [49.25726946, -123.11963072],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_01b856d934e1475b8f0376fe0cdf1e63 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3f5f267d8ee943cdbc589d8607e7d1b9.setIcon(icon_01b856d934e1475b8f0376fe0cdf1e63);
+        
+    
+        var popup_067c743b7daa49fa82b18c33456f41f8 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_556bbd9367334bb386244033224e13f3 = $(`<div id="html_556bbd9367334bb386244033224e13f3" style="width: 100.0%; height: 100.0%;"><b>FAMILIES AND OTHERS <br><br>Number of units: </b>28 <br> <b>Address: </b>  3196 Heather St<br><b>Operator: </b>Co-op Demers "La Bruyere" Co-op Hsg Assoc.<br><b>Year when this was initially occupied: </b>1976.0</div>`)[0];
+            popup_067c743b7daa49fa82b18c33456f41f8.setContent(html_556bbd9367334bb386244033224e13f3);
+        
+
+        marker_3f5f267d8ee943cdbc589d8607e7d1b9.bindPopup(popup_067c743b7daa49fa82b18c33456f41f8)
+        ;
+
+        
+    
+    
+            var marker_c48aa2524ce64343b4f6f95360523c2e = L.marker(
+                [49.26694875, -123.12174954],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_e54b56a82b3f4293be622b3eda51fc37 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c48aa2524ce64343b4f6f95360523c2e.setIcon(icon_e54b56a82b3f4293be622b3eda51fc37);
+        
+    
+        var popup_92ac36ab287b440e8c1969dc75d295e7 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_cb99de9df1b646e083df365a3b8cb8a7 = $(`<div id="html_cb99de9df1b646e083df365a3b8cb8a7" style="width: 100.0%; height: 100.0%;"><b>FAMILIES AND OTHERS <br><br>Number of units: </b>82 <br> <b>Address: </b>  711 Millyard<br><b>Operator: </b>False Creek Co-op Housing Association<br><b>Year when this was initially occupied: </b>1977.0</div>`)[0];
+            popup_92ac36ab287b440e8c1969dc75d295e7.setContent(html_cb99de9df1b646e083df365a3b8cb8a7);
+        
+
+        marker_c48aa2524ce64343b4f6f95360523c2e.bindPopup(popup_92ac36ab287b440e8c1969dc75d295e7)
+        ;
+
+        
+    
+    
+            var marker_f1f8ce3f98c84ecb8ee57c2b6f8be3dd = L.marker(
+                [49.27094926, -123.1908124],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_f4ee83e339ad4b68bb97fb011bdb7775 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f1f8ce3f98c84ecb8ee57c2b6f8be3dd.setIcon(icon_f4ee83e339ad4b68bb97fb011bdb7775);
+        
+    
+        var popup_2c2cae69336f42649a16c95dacc945ca = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_d5d1a41e9e1f4b1f8237f5a43d53f646 = $(`<div id="html_d5d1a41e9e1f4b1f8237f5a43d53f646" style="width: 100.0%; height: 100.0%;"><b>FAMILIES AND OTHERS <br><br>Number of units: </b>15 <br> <b>Address: </b>  3890 Point Grey Rd<br><b>Operator: </b>Dunbar Village Co-op Housing Association<br><b>Year when this was initially occupied: </b>1979.0</div>`)[0];
+            popup_2c2cae69336f42649a16c95dacc945ca.setContent(html_d5d1a41e9e1f4b1f8237f5a43d53f646);
+        
+
+        marker_f1f8ce3f98c84ecb8ee57c2b6f8be3dd.bindPopup(popup_2c2cae69336f42649a16c95dacc945ca)
+        ;
+
+        
+    
+    
+            var marker_9ba24313a6ca40e8bd4c41e67f13fdc9 = L.marker(
+                [49.26771357, -123.1340075],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_7cfd196d14b34e809547d383bb02e6d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9ba24313a6ca40e8bd4c41e67f13fdc9.setIcon(icon_7cfd196d14b34e809547d383bb02e6d9);
+        
+    
+        var popup_28384a1201d5409c98565eb63c55448a = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_70ae6e0de56f479b8f1475faa5782f9f = $(`<div id="html_70ae6e0de56f479b8f1475faa5782f9f" style="width: 100.0%; height: 100.0%;"><b>FAMILIES AND OTHERS <br><br>Number of units: </b>95 <br> <b>Address: </b>  1256 Shorepine  Walk<br><b>Operator: </b>Alder Bay Co-op Housing Association<br><b>Year when this was initially occupied: </b>1980.0</div>`)[0];
+            popup_28384a1201d5409c98565eb63c55448a.setContent(html_70ae6e0de56f479b8f1475faa5782f9f);
+        
+
+        marker_9ba24313a6ca40e8bd4c41e67f13fdc9.bindPopup(popup_28384a1201d5409c98565eb63c55448a)
+        ;
+
+        
+    
+    
+            var marker_a5126c0de5184cd88d7b4993c4b277f7 = L.marker(
+                [49.26687114, -123.13016336],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_c4696aec810643c08b33807be5870399 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a5126c0de5184cd88d7b4993c4b277f7.setIcon(icon_c4696aec810643c08b33807be5870399);
+        
+    
+        var popup_547e1ae67e1a47af842d2be2ac923fc3 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_4afc9e702447431db2ee793aee832999 = $(`<div id="html_4afc9e702447431db2ee793aee832999" style="width: 100.0%; height: 100.0%;"><b>FAMILIES AND OTHERS <br><br>Number of units: </b>125 <br> <b>Address: </b>  1091 Sitka Square<br><b>Operator: </b>New Chelsea Society<br><b>Year when this was initially occupied: </b>1977.0</div>`)[0];
+            popup_547e1ae67e1a47af842d2be2ac923fc3.setContent(html_4afc9e702447431db2ee793aee832999);
+        
+
+        marker_a5126c0de5184cd88d7b4993c4b277f7.bindPopup(popup_547e1ae67e1a47af842d2be2ac923fc3)
+        ;
+
+        
+    
+    
+            var marker_26d502925312490cb44b3e6cbc5b6078 = L.marker(
+                [49.27720434, -123.08921553],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_6863e7252cd145a097f2e13fd8bb20f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_26d502925312490cb44b3e6cbc5b6078.setIcon(icon_6863e7252cd145a097f2e13fd8bb20f0);
+        
+    
+        var popup_93a08dc6736c45189f69bdb69fd7a743 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_b60dc1f812ca4d98bb93c7a7772039d0 = $(`<div id="html_b60dc1f812ca4d98bb93c7a7772039d0" style="width: 100.0%; height: 100.0%;"><b>FAMILIES AND OTHERS <br><br>Number of units: </b>7 <br> <b>Address: </b>  730 Union St<br><b>Operator: </b>Strathcona Co-op Housing Association<br><b>Year when this was initially occupied: </b>1975.0</div>`)[0];
+            popup_93a08dc6736c45189f69bdb69fd7a743.setContent(html_b60dc1f812ca4d98bb93c7a7772039d0);
+        
+
+        marker_26d502925312490cb44b3e6cbc5b6078.bindPopup(popup_93a08dc6736c45189f69bdb69fd7a743)
+        ;
+
+        
+    
+    
+            var marker_3aaef8fd8fd24dbfa97ed3141bf5339e = L.marker(
+                [49.27107928, -123.18996814],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_18b9853555e04bf6860825d132d97f23 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3aaef8fd8fd24dbfa97ed3141bf5339e.setIcon(icon_18b9853555e04bf6860825d132d97f23);
+        
+    
+        var popup_8aca81ff5b9246aa9f07126464d5c823 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_f1e379893f5d483b81731449a9903f56 = $(`<div id="html_f1e379893f5d483b81731449a9903f56" style="width: 100.0%; height: 100.0%;"><b>FAMILIES AND OTHERS <br><br>Number of units: </b>20 <br> <b>Address: </b>  1707 Wallace St<br><b>Operator: </b>Penta Co-op Housing Association<br><b>Year when this was initially occupied: </b>1978.0</div>`)[0];
+            popup_8aca81ff5b9246aa9f07126464d5c823.setContent(html_f1e379893f5d483b81731449a9903f56);
+        
+
+        marker_3aaef8fd8fd24dbfa97ed3141bf5339e.bindPopup(popup_8aca81ff5b9246aa9f07126464d5c823)
+        ;
+
+        
+    
+    
+            var marker_f337189e323b4009b98571776426c7f3 = L.marker(
+                [49.27456138, -123.06589423],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_06503809585d40a7be3e8ddf1a2ddf11);
+        
+    
+            var icon_e08e34ef092d453ca9a45e17a8f28f57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f337189e323b4009b98571776426c7f3.setIcon(icon_e08e34ef092d453ca9a45e17a8f28f57);
+        
+    
+        var popup_af6790869ba44949aa114da83a06f86a = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            var html_cc362b11b0d04446b32d2b4f89afe4df = $(`<div id="html_cc362b11b0d04446b32d2b4f89afe4df" style="width: 100.0%; height: 100.0%;"><b>FAMILIES AND OTHERS <br><br>Number of units: </b>5 <br> <b>Address: </b>  1109 Victoria Dr<br><b>Operator: </b>Vancouver East Co-op Housing Association<br><b>Year when this was initially occupied: </b>1980.0</div>`)[0];
+            popup_af6790869ba44949aa114da83a06f86a.setContent(html_cc362b11b0d04446b32d2b4f89afe4df);
+        
+
+        marker_f337189e323b4009b98571776426c7f3.bindPopup(popup_af6790869ba44949aa114da83a06f86a)
+        ;
+
+        
+    
+</script>
